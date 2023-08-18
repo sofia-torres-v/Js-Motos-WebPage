@@ -1,0 +1,13 @@
+.container-nav{
+    /* background-color: green; */
+    height: 90px;
+    justify-content: center;
+    display: flex;
+    border-bottom: 4px solid #F5CD10;
+}
+
+.container-logo{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+  }
