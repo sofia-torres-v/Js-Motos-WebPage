@@ -15,10 +15,17 @@ function Home() {
         <figure className='container-img-motobike'>
           {/* <img src={logo} className='logo-home' alt='JS Motos logo' /> */}
           <img className='img-motobike'
-            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FyellowMotobike.png?alt=media&token=8e681834-36e5-470c-b74c-562906b97f33'
+            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FhomeMotobikeMovil.png?alt=media&token=2e3dc1e3-b859-49ff-a639-ce126561b2ab'
+            alt='image motobike' />
+             <img className='img-gasket-home-movil'
+            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2Fgasket-home-movil.png?alt=media&token=9dd320e8-6639-4c72-b5a6-43cfb8db9ab1'
             alt='image motobike' />
         </figure>
       </main>
+      <footer className='footer-movil'>
+        HOLA HOLA
+
+      </footer>
     </div>
   )
 }

@@ -1,29 +1,36 @@
 .home-view{
   background-color: white;
 }
-
 .container-main-home{
   background-color: red;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 370px;
+  padding-top: 2%;
+  width: 384px;
   height: 700px;
 }
-
 .home-title{
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-
+  padding-left: 15%;
+  padding-right: 3%;
+  border: 10px solid blue;
 }
 .container-img-motobike {
   display: flex;
-  justify-content:center;
-  width: 50%;
-  height: 50%;
+  border: 10px solid black;
+  margin-left: 0;
+  width: 63%;
+  height: 58%;
 }
+.footer-movil{
+  background-color: #F5CD10;
+  height: 55px;
+  width: 390px;
+  border: 2px solid black;
+}
+
 
 /* #root {
   max-width: 1280px;
