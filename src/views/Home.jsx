@@ -23,8 +23,10 @@ function Home() {
         </figure>
       </main>
       <footer className='footer-movil'>
-        HOLA HOLA
-
+        <div className='black-rectangle-left'></div>
+        <span className='footer-text'>PRODUCTOS De materia prima 100% libre de asbesto y solventes</span>
+      
+        <div className='black-rectangle-right'></div>
       </footer>
     </div>
   )

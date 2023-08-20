@@ -1,13 +1,13 @@
 .home-view{
   background-color: white;
+  width: 390px;
+  height: 844px;
 }
 .container-main-home{
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   padding-top: 2%;
-  width: 384px;
-  height: 700px;
 }
 .home-title{
   font-size: 24px;
@@ -15,21 +15,51 @@
   text-align: center;
   padding-left: 15%;
   padding-right: 3%;
-  border: 10px solid blue;
+  /* border: 10px solid blue; */
 }
 .container-img-motobike {
   display: flex;
-  border: 10px solid black;
+  /* border: 10px solid black; */
   margin-left: 0;
   width: 63%;
   height: 58%;
+  gap: 5%;
+}
+.img-gasket-home-movil{
+  position: absolute;
+  margin-left: 57%;
+
+
 }
 .footer-movil{
   background-color: #F5CD10;
   height: 55px;
   width: 390px;
   border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+.black-rectangle-left,.black-rectangle-right{
+  height: 100%;
+  width: 20%;
+  background-color: black;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -ms-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  transform: skew(20deg);
+
+}
+
+.footer-text{
+  width: 50%;
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+  padding: 1.5%;
+}
+
 
 
 /* #root {
