@@ -1,5 +1,8 @@
 import './Home.css'
 import Nav from '../components/Nav'
+import HalfElipse from '../components/HalfElipse';
+import ContactList from '../components/ContactList';
+
 //import { storage } from './firebase';
 function Home() {
 
@@ -21,11 +24,17 @@ function Home() {
             src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2Fgasket-home-movil.png?alt=media&token=9dd320e8-6639-4c72-b5a6-43cfb8db9ab1'
             alt='image motobike' />
         </figure>
+        <figure className='container-HalElipse-movil'>
+          <HalfElipse/>
+          <div className='container-contact-list'>
+             <ContactList />
+          </div>
+            
+        </figure>
       </main>
       <footer className='footer-movil'>
         <div className='black-rectangle-left'></div>
         <span className='footer-text'>PRODUCTOS De materia prima 100% libre de asbesto y solventes</span>
-      
         <div className='black-rectangle-right'></div>
       </footer>
     </div>

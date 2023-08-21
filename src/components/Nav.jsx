@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <div className='container-nav'>
-        <Menu width={250} isOpen={false}>
+        <Menu width={'80%'} isOpen={false}>
           <a id="home" className="menu-item" href="/">
             Inicio
           </a>
