@@ -31,7 +31,8 @@
 }
 
 .container-HalElipse-movil{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  background-color: blue;
   width: 90%;
   height: 90%;
   display: flex;
@@ -76,6 +77,13 @@
   text-align: center;
   font-weight: bold;
   padding: 1.5%;
+}
+.container-whatsapp-icon{
+  /* background-color: black; */
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -6%;
 }
 
 
