@@ -1,13 +1,22 @@
 .container-nav{
     /* background-color: green; */
-    height: 80px;
-    justify-content: center;
+    height: 50%;
+    justify-content: space-between;
     display: flex;
-    border-bottom: 4px solid #F5CD10;
+    padding: 2%;
+    gap: 6%;
+    align-items: center;
+    width: 90%;
 }
 
 .container-logo{
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-  }
+    width: 40%;  
+}
+
+.logo-home{
+    /* background-color: #F5CD10; */
+    height: 40px;
+}
