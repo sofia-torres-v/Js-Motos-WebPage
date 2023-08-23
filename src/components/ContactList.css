@@ -1,3 +1,29 @@
 .contact-list-home-movil{
-    font-size:xx-large
+    /* background-color: aqua; */
+    font-size: 0.9em;
+    list-style-type: none;
+} 
+.container-icon{
+    width: 10%;
 }
+.list-element{
+    display: flex;
+    align-items: center;
+}.container-icon{
+    /* background-color: orange; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-list{
+    /* background-color: brown; */
+    padding: 1%;
+    width: 75%;
+    height: 75%;
+}
+.icon-list-location{
+    width: 50%;
+    height: 70%;
+} 

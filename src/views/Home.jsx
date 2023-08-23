@@ -2,9 +2,15 @@ import './Home.css'
 import Nav from '../components/Nav'
 import HalfElipse from '../components/HalfElipse';
 import ContactList from '../components/ContactList';
+import { images } from '../firebaseConfig/imagesUrls';
 
-function Home() {
-
+const Home = () => {
+  const OpenWhatsApp = () => {
+    console.log('Hola')
+    const phoneNumber = '988987001';
+    // window.location.href = `https://wa.me/${phoneNumber}`;
+    window.open(`https://wa.me/${phoneNumber}`,'_blank')
+  }
 
   return (
     <div className='home-view' id='outer-container'>
@@ -12,19 +18,16 @@ function Home() {
          <Nav />
       </header>
       <main className='container-main-home'>
-        <section className='container-span-mobile'>
+        <section className='container-span-mobile' >
           <span className='home-title'>
             ¡TODOS los accesorios para tu moto!
           </span>
         </section>
         <section className='container-images-home-mobile'>
-          {/* <figure className='container-img-motobike'> */}
-          {/* <img src={logo} className='logo-home' alt='JS Motos logo' /> */}
           <img className='img-motobike'
-            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FhomeMotobikeMovil.png?alt=media&token=2e3dc1e3-b859-49ff-a639-ce126561b2ab'
+            src={images.motobike}
             alt='image motobike' />
-          <img className='img-gasket-home-movil'
-            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2Fgasket-home-movil.png?alt=media&token=9dd320e8-6639-4c72-b5a6-43cfb8db9ab1'
+          <img className='img-gasket-home-movil'src={images.gasket}
             alt='image motobike' />
         </section>
         <section className='elipse-contact-information-home'>
@@ -34,8 +37,8 @@ function Home() {
          <div className='container-contact-list'>
           <ContactList></ContactList>
          </div>
-         <figure className='container-whatsapp-icon'>
-                <img className='whatsapp-logo-home' src="https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FWhatsapp-icon-mobile.png?alt=media&token=79a5e521-f26b-4b6f-b64f-f3ff6943be24"
+         <figure className='container-whatsapp-icon'onClick={OpenWhatsApp} >
+                <img className='whatsapp-logo-home' src={images.whatsApp}
                   alt="whatsapp-icon" />
               </figure>
         </section>

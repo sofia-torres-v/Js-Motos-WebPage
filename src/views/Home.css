@@ -1,6 +1,5 @@
 .home-view{
   background-color: white;
-  /* width: 100%; */
   min-height: 100vh;
 }
 .container-main-home{
@@ -19,6 +18,7 @@ border-bottom: 4px solid #F5CD10;
 .home-title{
   font-size: 1.5em;
   font-weight: bold;
+  padding: 1%;
 }
 .container-images-home-mobile{
   /* background-color: blueviolet; */
@@ -47,19 +47,21 @@ border-bottom: 4px solid #F5CD10;
 .container-contact-list{
   /* border: 2px solid sandybrown; */
   position: absolute;
-  top: 60%;
-  z-index: 10;
+  width: 220px;
+  top: 55%;
+  z-index: 3;
 }
 .container-whatsapp-icon{
   /* background-color: black; */
   display: flex;
-  align-items:self-end;
   position: absolute;
+  justify-content: flex-end;
   bottom: 0;
 }
 .whatsapp-logo-home{
-  height: 80%;
-  width: 80%;
+  height: 72%;
+  width: 72%;
+  z-index: 4;
 }
 .footer-movil{
   background-color: #F5CD10;
