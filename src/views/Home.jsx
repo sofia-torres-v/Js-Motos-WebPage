@@ -34,12 +34,16 @@ function Home() {
          <div className='container-contact-list'>
           <ContactList></ContactList>
          </div>
+         <figure className='container-whatsapp-icon'>
+                <img className='whatsapp-logo-home' src="https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FWhatsapp-icon-mobile.png?alt=media&token=79a5e521-f26b-4b6f-b64f-f3ff6943be24"
+                  alt="whatsapp-icon" />
+              </figure>
         </section>
 
       </main>
       <footer className='footer-movil'>
         <div className='black-rectangle-left'></div>
-        <span className='footer-text'>PRODUCTOS De materia prima 100% libre de asbesto y solventes</span>
+        <span className='footer-text'>PRODUCTOS De materia prima 100% libre de asbestos y solventes</span>
         <div className='black-rectangle-right'></div>
       </footer>
     </div>
@@ -47,11 +51,3 @@ function Home() {
 }
 
 export default Home
-
-{/* <div className='container-contact-list'>
-              <ContactList />
-              <figure className='container-whatsapp-icon'>
-                <img src="https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FWhatsapp-icon-mobile.png?alt=media&token=79a5e521-f26b-4b6f-b64f-f3ff6943be24"
-                  alt="whatsapp-icon" />
-              </figure>
-            </div> */}

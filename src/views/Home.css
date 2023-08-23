@@ -45,10 +45,21 @@ border-bottom: 4px solid #F5CD10;
   position: relative;
 }
 .container-contact-list{
-  border: 2px solid sandybrown;
+  /* border: 2px solid sandybrown; */
   position: absolute;
   top: 60%;
   z-index: 10;
+}
+.container-whatsapp-icon{
+  /* background-color: black; */
+  display: flex;
+  align-items:self-end;
+  position: absolute;
+  bottom: 0;
+}
+.whatsapp-logo-home{
+  height: 80%;
+  width: 80%;
 }
 .footer-movil{
   background-color: #F5CD10;
@@ -79,13 +90,7 @@ border-bottom: 4px solid #F5CD10;
   font-weight: bold;
   padding: 1.5%;
 }
-.container-whatsapp-icon{
-  /* background-color: black; */
-  width: 95%;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -6%;
-}
+
 
 
 
