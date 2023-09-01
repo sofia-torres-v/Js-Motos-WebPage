@@ -10,4 +10,9 @@ export const icons = {
     location: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2Flocation-icon.png?alt=media&token=76e4dee4-d9b7-4747-b354-ec0bea7ca6a4',
     truck: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2Ftruck-icon.png?alt=media&token=4045fc62-ef2c-4150-b936-8b1db57d1d51'
 
+};
+export const imagesDesktop = {
+    scooter:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpageDesktop%2FScooter.png?alt=media&token=06552d20-e176-4632-8aa3-185e535f392c',
+    motobike:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpageDesktop%2Fmotobike.png?alt=media&token=413cd435-c81b-4208-9bb1-bbcdef7f7b56'
+
 }

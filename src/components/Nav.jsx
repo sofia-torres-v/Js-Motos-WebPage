@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <div className='container-nav'>
-        <Menu width={'80%'} isOpen={false}>
+        <Menu width={'70%'} isOpen={false}>
           <a id="home" className="menu-item" href="/">
             Inicio
           </a>
@@ -20,7 +20,7 @@ const Nav = () => {
           </a>
         </Menu>
         <figure className='container-logo'>
-          <img className='logo-home'
+          <img className='logo'
             src="https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FlogoJsMotos.png?alt=media&token=83956378-6ff7-47cf-9866-d92cde38e2e2"
             alt='logoJsMotos' />
         </figure>

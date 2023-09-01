@@ -1,29 +1,24 @@
-.contact-list-home-movil{
-    /* background-color: aqua; */
-    font-size: 0.9em;
-    list-style-type: none;
-} 
-.container-icon{
-    width: 10%;
-}
+
 .list-element{
+    /* background-color: paleturquoise; */
+    font-size: 0.7rem;
+    list-style: none;
     display: flex;
     align-items: center;
-}.container-icon{
-    /* background-color: orange; */
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+    gap: 10px;
+}
+
+.container-icon{
+    /* background-color: rgb(236, 129, 53); */
+    width: 20px;
+    height: 20px;
 }
 .icon-list{
-    /* background-color: brown; */
-    padding: 1%;
-    width: 75%;
-    height: 75%;
+    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
 }
-.icon-list-location{
-    width: 50%;
-    height: 70%;
-} 
+
