@@ -1,0 +1,23 @@
+.container-nav {
+    position: relative;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.container-logo {
+    /* background-color: aqua; */
+    width: 37%;
+    height: 30%;
+    max-width: 150px;
+}
+
+.logo {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+    margin: 0 auto;
+}
