@@ -35,7 +35,6 @@
 /* Estilos para las imágenes y elípsis */
 .container-images-home-mobile {
     /* background-color: aquamarine; */
-    /* min-height: calc(100vh - 205px); aqui*/
     min-height: calc(100vh - 389px);
     display: flex;
     flex-direction: column;
@@ -50,15 +49,12 @@
 
     width: 100%;
     /* max-width: 800px; */
-    /* height: 36vh; aqui */ 
     height: 42vh;
 }
 
 .box-moto,
 .box-gasket {
     /* border: 2px solid blue; */
-    /* width: 30%; */
-    /* max-width: 300px; */
     height: 100%;
 }
 
@@ -72,12 +68,10 @@
 
 .container-HalfElipse-movil {
     /* border: solid 3px  rgb(179, 26, 52); */
-    /* margin-top: -113px;aqui */
     margin-top: -101px;
     width: 100%;
     position: relative;
-    /* height: 52vh;aqui */
-    height: 44vh;
+    height: 45vh;
 }
 
 .img-half-elipse {
@@ -89,9 +83,9 @@
 }
 
 .container-contact-list {
-    /* background-color: pink; */
+    /* background-color: rgb(194, 19, 48); */
     position: absolute;
-    top: 75%;
+    top: 65%;
     left:  65%;
     transform: translate(-50%, -50%);
 }

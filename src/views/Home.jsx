@@ -47,13 +47,15 @@ const Home = () => {
                             <img className='container-whatsapp-icon' src={images.whatsApp} 
                             alt="whatsapp-icon" onClick={OpenWhatsApp} />
                             
-                            <img className="img-half-elipse" src={Elipse} alt="" />                          
+                            <img className="img-half-elipse" src={Elipse} alt="" />     
+
+                                 <div className="container-contact-list">
+                                <ContactList></ContactList>
+                        </div>                      
 
                         </div>
                         
-                        { <div className="container-contact-list">
-                                <ContactList></ContactList>
-                            </div> } 
+                     
 
                     </div>
 
