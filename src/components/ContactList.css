@@ -1,20 +1,28 @@
 
 .list-element{
-    /* background-color: paleturquoise; */
-    font-size: 0.7rem;
+    /* border:solid 2px paleturquoise; */
+    font-size: 1rem;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     font-weight: bold;
-    /* margin-bottom: 5px; */
     gap: 10px;
+    padding: 1.5px ;
 }
 
+.list-element-car{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px
+}
 .container-icon{
     /* background-color: rgb(236, 129, 53); */
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 .icon-list{
     /* background-color: blue; */

@@ -1,11 +1,9 @@
 .container-nav {
-    /* border: 5px solid green; */
     position: relative;
     /* background-color: greenyellow; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 5px; */
     width: 100%;
 }
 

@@ -14,13 +14,13 @@ const Home = () => {
   
     return (
         <div className="home-view" id="outer-container">
-            <header className="header" id="page-wrap">
+           <header className="header" id="page-wrap">
                 <Nav />
-            </header>
+           </header>
 
             <main>
                 <section className="container-main-home">
-                    <h1 className="home-title">¡TODOS los accesorios para tu moto!</h1>
+                    <h1 className="home-title">¡Todos los accesorios para tu moto!</h1>
 
                     <div className="container-images-home-mobile">
                         <div className="box-general">
@@ -42,18 +42,18 @@ const Home = () => {
 
                         <div className="container-HalfElipse-movil">
 
-                            <img className="img-half-elipse" src={Elipse} alt="" />
-                            
-                            <div className="container-contact-list">
-                                <ContactList></ContactList>
-                            </div>
 
                             
                             <img className='container-whatsapp-icon' src={images.whatsApp} 
                             alt="whatsapp-icon" onClick={OpenWhatsApp} />
                             
+                            <img className="img-half-elipse" src={Elipse} alt="" />                          
 
                         </div>
+                        
+                        { <div className="container-contact-list">
+                                <ContactList></ContactList>
+                            </div> } 
 
                     </div>
 

@@ -7,25 +7,29 @@ const ContactList = () => {
             <li className='list-element'>
                 <div className='container-icon'>
                     <img className="icon-list"src={icons.phone} alt="locarion Icon"/>
-                </div> 051 999999999
+                </div>
+                051 999999999
             </li>
 
             <li className='list-element'>
                 <div className='container-icon'>
                     <img className="icon-list"src={icons.email} alt="email Icon"/>
-                </div> jsmotosGasket@gmail.com 
+                </div> 
+                jsmotosGasket@gmail.com 
             </li>
 
             <li className='list-element'>
                 <div className='container-icon'>
                     <img className="icon-list"src={icons.location} alt="location Icon"/>
-                </div> Puente Piedra, Lima-Perú 
+                </div>
+                Puente Piedra, Lima-Perú 
             </li>
 
-            <li className='list-element'>
+            <li className='list-element-car'>
                 <div className='container-icon'>
-                    <img className="icon-list"src={icons.truck} alt="Mobile Icon"/>
-                </div> Despacho a Lima y Provincias
+                    <img className="icon-list-car"src={icons.truck} alt="Mobile Icon"/>
+                </div>
+                Despacho a Lima provincia
             </li>
                  
         </ul>
