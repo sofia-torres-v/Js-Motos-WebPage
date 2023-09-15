@@ -1,0 +1,36 @@
+.about-view {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container-main-about {
+  min-height: calc(100vh - 150px);
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  /* background-color: #ffffff; */
+}
+
+.container-about {
+  background-color: green;
+  margin: 3%;
+}
+
+.container-image-about {
+  background-color: blue;
+}
+
+.img-moto {
+  width: 60%;
+  height: 30%;
+  position: absolute;
+}
+
+.img-triangle {
+  width: 100%;
+  height: 100%;
+}
