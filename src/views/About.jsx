@@ -1,6 +1,7 @@
 import './About.css'
 import Nav from '../components/Nav'
 import { imagesDesktop } from '../firebaseConfig/imagesUrls';
+import Footer from '../components/Footer';
 
 const About = () => {
   return (
@@ -33,14 +34,7 @@ const About = () => {
           </section>
         </div>
       </main>
-      <footer className="footer-movil">
-        <div className="black-rectangle-left"></div>
-        <p className="footer-text">
-          Productos de materia prima 100% libre de asbestos y
-          solventes
-        </p>
-        <div className="black-rectangle-right"></div>
-      </footer>
+        <Footer/>
     </div>
   )
 }

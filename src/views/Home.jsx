@@ -1,8 +1,9 @@
-import "./Home.css";
+import './Home.css';
 import Nav from "../components/Nav";
 import ContactList from "../components/ContactList";
 import Elipse from '../assets/elipse.png'
 import { images } from "../firebaseConfig/imagesUrls";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const OpenWhatsApp = () => {
@@ -50,28 +51,14 @@ const Home = () => {
               <img className="img-half-elipse" src={Elipse} alt="" />
 
               <div className="container-contact-list">
-                <ContactList></ContactList>
+                <ContactList/>
               </div>
 
             </div>
-
-
-
           </div>
-
-
         </section>
-
       </main>
-
-      <footer className="footer-movil">
-        <div className="black-rectangle-left"></div>
-        <p className="footer-text">
-          Productos de materia prima 100% libre de asbestos y
-          solventes
-        </p>
-        <div className="black-rectangle-right"></div>
-      </footer>
+      <Footer />
     </div>
   );
 };

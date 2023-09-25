@@ -5,6 +5,7 @@ import Home from './views/Home.jsx'
 import './index.css'
 import ErrorPage from './views/ErrorPage.jsx'
 import About from './views/About.jsx'
+import Products from './views/Products.jsx'
 
 import {
   createBrowserRouter,
@@ -21,6 +22,12 @@ const router = createBrowserRouter([
     element: <About/>,
     errorElement: <ErrorPage/>
   },
+  {
+    path: "/products",
+    element: <Products/>,
+    errorElement: <ErrorPage/>
+  },
+ 
  
 ]);
 
