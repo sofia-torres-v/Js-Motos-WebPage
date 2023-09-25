@@ -53,6 +53,7 @@
   /* background-color: red; */
   height: 100%;
   /* margin: 5px; */
+  color: white;
 }
 
 .container-card-product.flipped .card-front {

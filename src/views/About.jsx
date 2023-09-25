@@ -1,42 +1,48 @@
-import './About.css'
-import Nav from '../components/Nav'
-import { imagesDesktop } from '../firebaseConfig/imagesUrls';
+import "./About.css";
+import Nav from "../components/Nav";
+import { imagesDesktop } from "../firebaseConfig/imagesUrls";
 import Footer from '../components/Footer';
 
 const About = () => {
   return (
-    <div className='about-view'>
-      <header id='page-wrap'>
+    <div className="about-view">
+      <header className="header">
         <Nav />
       </header>
       <main>
-        <div className='container-main-about'>
-          <section className='container-about'>
-            <p>Somos una empresa Peruana dedicada a la fabricación y venta de empaquetaduras para motos.Tenemos nuestros inicios en el año 2017,  nace como un un pequeño emprendimiento, el cual con mucho esfuerzo y dedidación, se ha convertido en JS MOTOS import.</p>
-          </section>
-          <section className='container-image-about'>
-            <div className='box-general'>
-              <div className='box-moto'>
-                <img
-                  className='img-moto'
-                  src={imagesDesktop.scooter}
-                  alt='image motobike'
-                />
-              </div>
-              <div className='box-triangle'>
-                <img
-                  className='img-triangle'
-                  src={imagesDesktop.triangle}
-                  alt='image triangle'
-                />
-              </div>
+        <section className="container-main-about">
+          <div className="container-text">
+            <p className="text-about">
+              Somos una empresa Peruana dedicada a la fabricación
+              y venta de empaquetaduras para motos.Tenemos
+              nuestros inicios en el año 2017, nace como un un
+              pequeño emprendimiento, el cual con mucho esfuerzo y
+              dedidación, se ha convertido en JS MOTOS import.
+            </p>
+          </div>
+
+          <div className="box-images-about">
+            <div className="box-moto-about">
+              <img
+                className="img-moto"
+                src={imagesDesktop.scooter}
+                alt="image motobike"
+              />
             </div>
-          </section>
-        </div>
+
+            <div className="box-triangle">
+              <img
+                className="img-triangle"
+                src={imagesDesktop.triangle}
+                alt="image triangle"
+              />
+            </div>
+          </div>
+        </section>
       </main>
-        <Footer/>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default About;

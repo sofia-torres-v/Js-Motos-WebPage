@@ -6,7 +6,7 @@ import productData from '../components/ProductsData';
 const Products = () => {
   return (
     <div className='products-view'>
-      <header id='page-wrap'>
+      <header className="header">
         <Nav />
       </header>
       <main>
