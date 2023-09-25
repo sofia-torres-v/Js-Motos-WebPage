@@ -1,26 +1,29 @@
-import "./Home.css";
+import './Home.css';
 import Nav from "../components/Nav";
 import ContactList from "../components/ContactList";
-import  Elipse from '../assets/elipse.png'
+import Elipse from "../assets/elipse.png";
 import { images } from "../firebaseConfig/imagesUrls";
+import Footer from "../components/Footer";
 
 const Home = () => {
     const OpenWhatsApp = () => {
-        console.log('Hola')
-        const phoneNumber = '988987001';
+        console.log("Hola");
+        const phoneNumber = "+51988987001";
         // window.location.href = `https://wa.me/${phoneNumber}`;
-        window.open(`https://wa.me/${phoneNumber}`,'_blank')
-      }
-  
+        window.open(`https://wa.me/${phoneNumber}`, "_blank");
+    };
+
     return (
         <div className="home-view" id="outer-container">
-           <header className="header" id="page-wrap">
+            <header className="header" id="page-wrap">
                 <Nav />
-           </header>
+            </header>
 
             <main>
                 <section className="container-main-home">
-                    <h1 className="home-title">¡Todos los accesorios para tu moto!</h1>
+                    <h1 className="home-title">
+                        ¡Todos los accesorios para tu moto!
+                    </h1>
 
                     <div className="container-images-home-mobile">
                         <div className="box-general">
@@ -41,39 +44,30 @@ const Home = () => {
                         </div>
 
                         <div className="container-HalfElipse-movil">
+                            <img
+                                className="container-whatsapp-icon"
+                                src={images.whatsApp}
+                                alt="whatsapp-icon"
+                                onClick={OpenWhatsApp}
+                            />
 
+                            <img
+                                className="img-half-elipse"
+                                src={Elipse}
+                                alt=""
+                            />
 
-                            
-                            <img className='container-whatsapp-icon' src={images.whatsApp} 
-                            alt="whatsapp-icon" onClick={OpenWhatsApp} />
-                            
-                            <img className="img-half-elipse" src={Elipse} alt="" />     
+              <div className="container-contact-list">
+                <ContactList/>
+              </div>
 
-                                 <div className="container-contact-list">
-                                <ContactList></ContactList>
-                        </div>                      
-
-                        </div>
-                        
-                     
-
-                    </div>
-
-
-                </section>
-
-            </main>            
-
-            <footer className="footer-movil">
-                <div className="black-rectangle-left"></div>
-                <p className="footer-text">
-                    Productos de materia prima 100% libre de asbestos y
-                    solventes
-                </p>
-                <div className="black-rectangle-right"></div>
-            </footer>
-        </div>
-    );
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
