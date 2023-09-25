@@ -1,36 +1,63 @@
 .about-view {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .container-main-about {
-  min-height: calc(100vh - 150px);
-  background-color: blueviolet;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: justify;
-  /* background-color: #ffffff; */
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
-.container-about {
-  background-color: green;
-  margin: 3%;
+.container-text {
+    /* border: 2px solid blueviolet; */
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
 }
 
-.container-image-about {
-  background-color: blue;
+.text-about {
+    /* background-color: aqua; */
+    padding-left: 18%;
+    line-height: 22px;
 }
 
-.img-moto {
-  width: 60%;
-  height: 30%;
-  position: absolute;
+.box-images-about {
+    /* border: solid 3px black; */
+    position: relative;
 }
 
+.box-moto-about {
+    /* border: solid 2px rgb(17, 0, 255); */
+    position: absolute;
+    bottom: 0;
+}
+
+.box-triangle {
+    height: 85vh;
+    width: 100%;
+}
+
+.img-moto,
 .img-triangle {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 750px) {
+    .box-triangle {
+        height: 82vh;
+        width: 100%;
+    }
+
+    .text-about {
+        font-size: 1.2rem;
+        line-height: 26px;
+    }
 }
