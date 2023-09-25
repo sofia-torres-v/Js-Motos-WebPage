@@ -12,7 +12,7 @@ const Nav = () => {
           <a id="about" className="menu-item" href="/about">
             Nosotros
           </a>
-          <a id="contact" className="menu-item" href="/contact">
+          <a id="products" className="menu-item" href="/products">
             Productos
           </a>
           <a id="contact" className="menu-item" href="/contact">

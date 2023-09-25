@@ -13,6 +13,7 @@ export const icons = {
 };
 export const imagesDesktop = {
     scooter:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpageDesktop%2FScooter.png?alt=media&token=06552d20-e176-4632-8aa3-185e535f392c',
-    motobike:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpageDesktop%2Fmotobike.png?alt=media&token=413cd435-c81b-4208-9bb1-bbcdef7f7b56'
+    motobike:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpageDesktop%2Fmotobike.png?alt=media&token=413cd435-c81b-4208-9bb1-bbcdef7f7b56',
+    triangle:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpageDesktop%2FTriangle.png?alt=media&token=f0bc386c-4ee9-4a67-9267-95274b805645'
 
 }
