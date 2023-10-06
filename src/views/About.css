@@ -1,5 +1,4 @@
 .about-view {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -40,7 +39,7 @@
 }
 
 .box-triangle {
-    height: 85vh;
+    height: 84vh;
     width: 100%;
 }
 

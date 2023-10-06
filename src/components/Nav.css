@@ -1,10 +1,9 @@
-.container-mobile,
-.container-desktop {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+.container-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
 }
 .desktop-menu {
   width: 60%;
@@ -21,15 +20,13 @@
 }
 
 .container-logo {
-  width: 105px;
-  max-width: 150px;
+    width: 125px;
+    margin-left: 70px;
 }
 
 .logo {
-  width: 100%;
-  height: 100%;
-  margin-left: 25px;
-  margin: 0 auto;
+  
+    width: 100%;
 }
 
 .active-link {
