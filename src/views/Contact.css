@@ -1,0 +1,76 @@
+.contact-view {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+.contact-header {
+  height: 45px;
+}
+
+.container-main-contact {
+  /* border: solid 2px blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+form {
+  /* background-color: red; */
+  margin-top: 200px;
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 8px;
+  gap: 10px;
+  /* justify-content: center;
+      align-items: center; */
+  /* max-width: 500px; */
+  color: white;
+}
+
+input {
+  padding: 5px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  overflow-wrap: break-word;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.container-HalfElipse-contact {
+  /* background-color: red; */
+  /* margin-top: 100px; */
+  width: 100%;
+  position: relative;
+  height: 49vh;
+}
+
+.img-half-elipse-contact {
+  /* background-color: blue; */
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+@media (min-width: 750px) {
+  form {
+    width: 400px;
+  }
+
+  .img-half-elipse-contact {
+    margin-top: -95px;
+    width: 50%;
+    margin-left: auto;
+    height: 52vh;
+    /* background-color: green; */
+  }
+}

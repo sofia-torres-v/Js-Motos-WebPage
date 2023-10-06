@@ -6,6 +6,7 @@ import './index.css'
 import ErrorPage from './views/ErrorPage.jsx'
 import About from './views/About.jsx'
 import Products from './views/Products.jsx'
+import Contact from './views/Contact.jsx'
 
 import {
   createBrowserRouter,
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
   {
     path: "/products",
     element: <Products/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
     errorElement: <ErrorPage/>
   },
  

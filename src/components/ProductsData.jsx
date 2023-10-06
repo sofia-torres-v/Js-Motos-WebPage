@@ -5,6 +5,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fcilindro-4t205.jpg?alt=media&token=07c2dcb1-d3c3-4229-86bd-0f0f58c825ee',
     description: '',
     brand: 'Bajaj',
+    type: 'unit',
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fcorona-4t205.jpg?alt=media&token=eb69ad6a-f5b8-48b6-a0c9-725c2a65e24c',
     description: '',
     brand: 'Bajaj',
+    type: 'unit',
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fdisco-4t205.jpg?alt=media&token=44d8f7a7-d55d-4253-a975-a8658691d694',
     description: '',
     brand: 'Bajaj',
+    type: 'unit',
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fmotor-4t205.jpg?alt=media&token=17f53102-fe3e-4101-9c6c-815aa58d5eb9',
     description: '',
     brand: 'Bajaj',
+    type: 'unit',
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit-2t5l.jpg?alt=media&token=159b59bf-4ada-49a3-bc05-27f3abf4c5d7',
     description: '',
     brand: 'Bajaj',
+    type: 'kit',
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit-2tfl.jpg?alt=media&token=ad190fa5-d1af-405f-83b2-5dbf8a0b7b81',
     description: '',
     brand: 'Bajaj',
+    type: 'kit',
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit-tvs.jpg?alt=media&token=6123f572-2f34-4604-8fa4-b0c6bf17e252',
     description: '',
     brand: 'Bajaj',
+    type: 'kit',
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit205.jpg?alt=media&token=b5f50f74-097f-4973-86b4-db6d9bc95ab2',
     description: '',
     brand: 'Bajaj',
+    type: 'kit',
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ const productData = [
     image: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkitfl.jpg?alt=media&token=b6f086b3-d5db-445f-8784-3630a340ad3b',
     description: '',
     brand: 'Bajaj',
+    type: 'kit',
   },
 ]
 
