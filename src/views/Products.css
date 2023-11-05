@@ -5,16 +5,14 @@
 .container-products {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* gap: 30px; */
   justify-content: center;
   align-items: center;
   padding: 40px 0;
 }
 
 .container-products h1 {
-  /* background-color: red; */
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: 500;
   margin: 20px;
   text-align: center;
   border-bottom: 2px solid #F5CD10;

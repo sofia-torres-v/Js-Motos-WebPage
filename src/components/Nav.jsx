@@ -24,6 +24,13 @@ const Nav = () => {
   return (
     <>
       <div className={isMobile ? 'container-mobile' : 'container-desktop'}>
+        
+      <figure className='container-logo'>
+          <img className='logo'
+            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FlogoJsMotos.png?alt=media&token=83956378-6ff7-47cf-9866-d92cde38e2e2'
+            alt='logoJsMotos' />
+        </figure>
+        
         {isMobile ? (<Menu width={'70%'} isOpen={false}>
           <Link to='/' className={`link ${isLinkActive('/') ? 'active-link' : ''}`}>Inicio</Link>
           <Link to='/about' className={`link ${isLinkActive('/about') ? 'active-link' : ''}`}>Nosotros</Link>
@@ -40,11 +47,6 @@ const Nav = () => {
           </div>
         )}
 
-        <figure className='container-logo'>
-          <img className='logo'
-            src='https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FlogoJsMotos.png?alt=media&token=83956378-6ff7-47cf-9866-d92cde38e2e2'
-            alt='logoJsMotos' />
-        </figure>
       </div>
     </>
 
