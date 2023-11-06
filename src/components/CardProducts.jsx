@@ -26,7 +26,7 @@ const CardProducts = ({product}) => {
           <span className='title-card-product'>{product.name}</span>
           {/* <div className='container-date-description-product'> */}
           <p className='description-card-product'>{product.description}</p>
-          <span className='date-card-product'>{product.brand}</span>
+          <span className='brand-card-product'>{product.brand}</span>
           {/* </div> */}
         </div>
       </div>

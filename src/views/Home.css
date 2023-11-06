@@ -7,7 +7,7 @@
 /* ------------------------------Header------------------------ */
 
 .header {
-    border-bottom: 1px solid #f5cd10;
+    border-bottom: 1px solid #f5cf107e;
     height: 10%;
     display: grid;
     place-items: center;
@@ -16,8 +16,8 @@
 /* -------------------------------- Main------------------------/ */
 
 .home-title {
-    font-size: 1.4rem;
     padding: 4%;
+    font-weight: 500;
 }
 
 .container-main-home {
@@ -44,7 +44,7 @@
 
 .img-gasket {
     width: 100%;
-    height: 80%;
+    height: 72%;
 }
 
 .container-HalfElipse-movil {
@@ -56,47 +56,63 @@
 }
 
 .img-half-elipse {
-    width: 90%;
+    width: 93%;
     height: 100%;
     display: block;
     margin-left: auto;
 }
 
 .container-contact-list {
+    padding: 10px;
     position: absolute;
-    top: 65%;
-    left: 65%;
+    top: 40%;
+    right: 0%;
     transform: translate(-50%, -50%);
 }
 
-/* icon whatsApp */
+/* Icono de WhatsApp - Efecto de rotación parcial y respiración */
 .container-whatsapp-icon {
-    width: 60px;
-    position: absolute;
-    top: 85%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-}
-
-.whatsapp-logo-home {
-    width: 100%;
-}
-
+    width: 55px;
+    position: fixed;
+    bottom: 5%;
+    right: 0%;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    animation: breatheAndRotate 5s ease-in-out infinite;
+  }
+  
+  @keyframes breatheAndRotate {
+    0%, 100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(45deg) scale(1.2);
+    }
+  }
+  
+  
+  
 @media (min-width: 750px) {
+    .header{
+        height: 11%;
+    }
     .home-title {
         font-size: 2rem;
         padding: 2% 0;
     }
     .box-general {
-        height: 50vh;
+        height: 46vh;
     }
     .img-gasket {
         height: 50%;
     }
     .container-HalfElipse-movil {
-        margin-top: -179px;
-        width: 50%;
+        margin-top: -178px;
+        width: 55%;
         margin-left: auto;
-        height: 45vh;
+        height: 46vh;
+    }
+    .container-whatsapp-icon {
+        bottom: 9%;
+        right: 25px;
     }
 }

@@ -12,7 +12,7 @@ const ContactList = () => {
 
             <li className="list-element">
                 <img className="icon-list" src={icons.email} alt="email Icon" />
-                jsmotosGasket@gmail.com
+                jsmotosdev@gmail.com
             </li>
 
             <li className="list-element">
@@ -26,7 +26,7 @@ const ContactList = () => {
                 <img
                     className="icon-list"src={icons.truck}alt="Mobile Icon"
                 />
-                Despacho a Lima provincia
+                Despacho a Lima y provincia
             </li>
         </ul>
     );
