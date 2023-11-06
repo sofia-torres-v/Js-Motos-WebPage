@@ -1,4 +1,4 @@
-import './Home.css';
+import "./Home.css";
 import Nav from "../components/Nav";
 import ContactList from "../components/ContactList";
 import Elipse from "../assets/elipse.png";
@@ -45,29 +45,26 @@ const Home = () => {
 
                         <div className="container-HalfElipse-movil">
                             <img
-                                className="container-whatsapp-icon"
-                                src={images.whatsApp}
-                                alt="whatsapp-icon"
-                                onClick={OpenWhatsApp}
-                            />
-
-                            <img
                                 className="img-half-elipse"
                                 src={Elipse}
                                 alt=""
                             />
 
-              <div className="container-contact-list">
-                <ContactList/>
-              </div>
+                            <ContactList />
 
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </div>
-  );
+                            <img
+                                className="container-whatsapp-icon"
+                                src={images.whatsApp}
+                                alt="whatsapp-icon"
+                                onClick={OpenWhatsApp}
+                            />
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <Footer />
+        </div>
+    );
 };
 
 export default Home;

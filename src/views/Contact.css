@@ -1,0 +1,107 @@
+.contact-view {
+  height: 100vh;
+}
+
+.container-main-contact {
+  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-text-contact{
+  width: 90%;
+  margin: 10px auto;
+}
+
+.title-contact{
+  margin-bottom: 10px;
+}
+
+.box-form-contact{
+  height: 65%;
+  padding: 7px 0 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+  height: 100%;
+  font-family:  'Oswald', sans-serif;
+}
+
+.box-input-label{
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input, textarea , .btn{
+  border: none;
+  outline: none;
+  border: 1px solid rgb(163, 155, 155);
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  overflow-wrap: break-word;
+  vertical-align: top;
+  padding: 16px;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.btn{
+  padding: 5px;
+  background-color: #2b2828;
+  color: #fff;
+  border-radius: 4px;
+  font-family:  'Oswald', sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+  width: 50%;
+  cursor: pointer;
+
+}
+.btn:hover {
+  background-color: #333;
+  color: lightgray; 
+}
+
+@media (min-width:750px){
+
+  .container-main-contact {
+    flex-direction: row;
+    height: 78vh;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box-text-contact{
+    width: 50%;
+    margin-top: 100px;
+    font-size: 1.3rem;
+  }
+
+  .box-form-contact{
+    margin-top: 40px;
+    height: 90%;
+  }
+  
+  .box-input-label label{
+    font-size: 1.1rem;
+  }
+}
