@@ -49,32 +49,51 @@ const Contact = () => {
 
             <main>
                 <section className="container-main-contact">
-                    <form ref={refForm} onSubmit={handleSubmit(onSubmit)}>
-                        <label>Name</label>
-                        <input
-                            type="text"
-                            placeholder="Tu nombre"
-                            required
-                            {...register("name")}
-                        />
-                        <label>Email</label>
-                        <input
-                            type="email"
-                            placeholder="tu@email.com"
-                            required
-                            {...register("email")}
-                        />
-                        <label>Message</label>
-                        <textarea
-                            placeholder="Tu mensaje"
-                            required
-                            {...register("message")}
-                        />
-                        {errors.email && <span>This field is required</span>}
-                        <button className="btn fill" type="submit">
-                            Submit
-                        </button>
-                    </form>
+                    <div className="box-text-contact">
+                        <h1 className="title-contact">Contáctanos</h1>
+                        <p>
+                            Si está interesado en alguno de nuestros productos
+                            también puedes contactarnos por medio de este
+                            formulario. 
+                        </p>
+                    </div>
+
+                    <div className="box-form-contact">
+                        <form ref={refForm} onSubmit={handleSubmit(onSubmit)}>
+                            <div className="box-input-label">
+                                <label>Nombre</label>
+                                <input
+                                    type="text"
+                                    placeholder="Tu nombre"
+                                    required
+                                    {...register("name")}
+                                />
+                            </div>
+                            <div className="box-input-label">
+                                <label>Correo electrónico</label>
+                                <input
+                                    type="email"
+                                    placeholder="Tu@email.com"
+                                    required
+                                    {...register("email")}
+                                />
+                            </div>
+                            <div className="box-input-label">
+                                <label>Mensaje</label>
+                                <textarea
+                                    placeholder="Escribe tu mensaje aqui ..."
+                                    required
+                                    {...register("message")}
+                                />
+                            </div>
+                            {errors.email && (
+                                <span>This field is required</span>
+                            )}
+                            <button className="btn" type="submit">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
 
                     <img
                         className="container-whatsapp-icon"
