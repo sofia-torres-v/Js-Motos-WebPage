@@ -1,118 +1,60 @@
-.home-view {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-/* ------------------------------Header------------------------ */
 
 .header {
-    border-bottom: 1px solid #f5cf107e;
-    height: 10%;
+    /* border-bottom: 1px solid #f5cf107e; */
+    box-shadow: 0 0rem 1rem rgba(1, 1, 1, 0.13);  
     display: grid;
-    place-items: center;
+    place-items: center; 
 }
+
+
 
 /* -------------------------------- Main------------------------/ */
-
-.home-title {
-    padding: 4%;
-    font-weight: 500;
+.icons-info{
+    background-color: #131212;
 }
 
-.container-main-home {
-    /* border: solid 2px blue; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.main-text{
+    padding: 80px;
     text-align: center;
-    background-color: #ffffff;
 }
-
-.box-general {
-    /* border:solid 2px green; */
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 42vh;
-}
-
-.img-moto {
-    width: 100%;
-    height: 100%;
-}
-
-.img-gasket {
-    width: 100%;
-    height: 72%;
-}
-
-.container-HalfElipse-movil {
-    /* border: solid 2px  rgb(179, 26, 52); */
-    margin-top: -126px;
-    width: 100%;
-    position: relative;
-    height: 49vh;
-}
-
-.img-half-elipse {
-    width: 93%;
-    height: 100%;
-    display: block;
-    margin-left: auto;
-}
-
-.container-contact-list {
-    padding: 10px;
-    position: absolute;
-    top: 40%;
-    right: 0%;
-    transform: translate(-50%, -50%);
-}
+/* ------------------------------------------------- */
 
 /* Icono de WhatsApp - Efecto de rotación parcial y respiración */
 .container-whatsapp-icon {
-    width: 55px;
+    z-index: 2;
+    width: 60px;
     position: fixed;
-    bottom: 5%;
+    bottom: 18%;
     right: 0%;
     transform: translate(-50%, -50%) rotate(0deg) scale(1);
     animation: breatheAndRotate 5s ease-in-out infinite;
-  }
+    cursor: pointer;
+}
   
-  @keyframes breatheAndRotate {
+@keyframes breatheAndRotate {
     0%, 100% {
       transform: translate(-50%, -50%) rotate(0deg) scale(1);
     }
     50% {
-      transform: translate(-50%, -50%) rotate(45deg) scale(1.2);
+      transform: translate(-50%, -50%) rotate(90deg) scale(1.2);
     }
-  }
-  
+}
+
+.icon-messeger{
+    position: fixed;
+    bottom:15%;
+    right:32px;
+    background-color: #242323d8;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+    font-size: 2.7rem;
+    cursor: pointer;
+}
   
   
 @media (min-width: 750px) {
-    .header{
-        height: 11%;
-    }
-    .home-title {
-        font-size: 2rem;
-        padding: 2% 0;
-    }
-    .box-general {
-        height: 46vh;
-    }
-    .img-gasket {
-        height: 50%;
-    }
-    .container-HalfElipse-movil {
-        margin-top: -178px;
-        width: 55%;
-        margin-left: auto;
-        height: 46vh;
-    }
-    .container-whatsapp-icon {
-        bottom: 9%;
-        right: 25px;
+    .icon-messeger{
+        bottom:14%;
     }
 }

@@ -1,15 +1,13 @@
-import './Footer.css'
+import "./Footer.css";
+
 const Footer = () => {
-  return (
-    <footer className="footer-movil">
-      <div className="black-rectangle-left"></div>
-      <p className="footer-text">
-        Productos de materia prima 100% libre de asbestos y
-        solventes
-      </p>
-      <div className="black-rectangle-right"></div>
-    </footer>
-  )
-}
+    return (
+        <footer className="footer-movil">
+            <p className="footer-text">
+                Copyright© 2022 JSMOTOS IMPORT | All Right Reserved.
+            </p>
+        </footer>
+    );
+};
 
 export default Footer;

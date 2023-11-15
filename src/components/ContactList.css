@@ -1,21 +1,22 @@
 .contact-list-home-movil{
     /* background-color: blue; */
-    width: 75%;
+    width: 55%;
     height: 40%;
     max-width: 360px;
     position: absolute;
     bottom: 10%;
-    right: 0%;
+    right: 10%;
  
 }
 .list-element{
     /* background-color: aqua; */
     width: 100%;
     list-style: none;
+  
     display: flex;
     align-items: center;
     line-height: 24px; 
-    font-size: 1rem;
+    font-size: 14px;
     font-family: 'Oswald', sans-serif;
 }
 

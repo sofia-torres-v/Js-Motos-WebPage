@@ -1,5 +1,15 @@
 export const images = {
+
+    bannerHome:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FbannerHome.jpg?alt=media&token=e9feb13f-fad8-4aaa-bb39-609abdde3186',
+
     motobike:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FhomeMotobikeMovil.png?alt=media&token=2e3dc1e3-b859-49ff-a639-ce126561b2ab',
+
+    motoLinealHome:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FmotoLinealHome.png?alt=media&token=82b2a8e7-c987-47a9-917f-28ea032ac777',
+
+    motosLinealHome:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FmotosLinealHome.jpg?alt=media&token=8d0ee9b4-2309-4d86-8ff0-a2c431fb1ee0',
+    motoLineal2:'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FmotoLineal2.webp?alt=media&token=5e83d445-de85-474e-8c74-2b18a6a6ca15',
+
+
     gasket: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2Fgasket-home-movil.png?alt=media&token=9dd320e8-6639-4c72-b5a6-43cfb8db9ab1',
     whatsApp: 'https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/webpage%2FWhatsapp-icon-mobile.png?alt=media&token=79a5e521-f26b-4b6f-b64f-f3ff6943be24'
 
