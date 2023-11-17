@@ -1,0 +1,65 @@
+.Carousel-Item {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image {
+  filter: brightness(0.7); 
+  width: 135%;
+  height: 45vh;
+  animation: growImage 7s infinite alternate; 
+}
+
+.box-banner {
+  width: 50%;
+  position: absolute;
+  text-align: start;
+  top: 10%;
+  left: 8%;
+  padding-left: 15px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.banner-text{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;  
+  font-weight: 600;
+  
+}
+
+.banner-span{
+  color: rgb(26, 26, 43);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@keyframes growImage {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@media(min-width:800px){
+ 
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  .box-banner {
+    top: 8%;
+    left: 4%;
+    padding: 0 100px ;
+  }
+  
+  .banner-text{
+    font-size: 2.6rem;
+  }
+  
+  .banner-span{
+    font-size: 2.9rem;
+  }
+}

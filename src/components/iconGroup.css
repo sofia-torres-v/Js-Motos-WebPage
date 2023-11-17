@@ -1,0 +1,40 @@
+.conatiner-icons {
+    padding: 70px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.icons {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bx-map,
+.bx-world,
+.bxs-truck {
+    font-size: 3.5rem;
+    color: #555;
+}
+
+.text-icon-home,
+.span-icon-home {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.span-icon-home {
+    color: #f5cd10;
+}
+
+@media (min-width: 750px) {
+    .conatiner-icons {
+        flex-direction: row;
+    }
+}

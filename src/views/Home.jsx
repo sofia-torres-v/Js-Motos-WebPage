@@ -1,8 +1,8 @@
 import "./Home.css";
 import Nav from "../components/Nav";
-import ContactList from "../components/ContactList";
-import Elipse from "../assets/elipse.png";
 import { images } from "../firebaseConfig/imagesUrls";
+import Slider from "../components/slider";
+import IconGroup from "../components/IconGroup";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -21,45 +21,30 @@ const Home = () => {
 
             <main>
                 <section className="container-main-home">
-                    <h1 className="home-title">
-                        ¡Todos los accesorios para tu moto!
-                    </h1>
+                    <Slider />
 
-                    <div className="container-images-home-mobile">
-                        <div className="box-general">
-                            <div className="box-moto">
-                                <img
-                                    className="img-moto"
-                                    src={images.motobike}
-                                    alt="image motobike"
-                                />
-                            </div>
-                            <div className="box-gasket">
-                                <img
-                                    className="img-gasket"
-                                    src={images.gasket}
-                                    alt="image motobike"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="container-HalfElipse-movil">
-                            <img
-                                className="img-half-elipse"
-                                src={Elipse}
-                                alt=""
-                            />
-
-                            <ContactList />
-
-                            <img
-                                className="container-whatsapp-icon"
-                                src={images.whatsApp}
-                                alt="whatsapp-icon"
-                                onClick={OpenWhatsApp}
-                            />
-                        </div>
+                    <div className="main-text">
+                        <h1>INNOVAMOS</h1>
+                        <p className="">
+                            JSMOTOS IMPORT fabricamos empaquetaduras con láminas
+                            de alto rendimiento asegurando la resistencia en el
+                            sellado. Productos de materia prima 100% libre de
+                            asbestos y solventes Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Corporis, repudiandae.
+                        </p>
                     </div>
+
+                    <div className="icons-info">
+                        <IconGroup />
+                    </div>
+
+                    <img
+                        className="container-whatsapp-icon"
+                        src={images.whatsApp}
+                        alt="whatsapp-icon"
+                        onClick={OpenWhatsApp}
+                    />
+                    <i className="bx bxl-messenger icon-messeger"></i>
                 </section>
             </main>
             <Footer />

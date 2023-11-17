@@ -1,9 +1,10 @@
-.products-view{
+/* .products-view{
  height: 100vh;
-}
+} */
 
 .container-products {
   display: flex;
+  padding-bottom: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
