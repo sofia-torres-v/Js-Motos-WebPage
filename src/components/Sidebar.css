@@ -1,13 +1,8 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-    /* background-color: blue; */
-    position: absolute;
+    position: relative;
     width: 30px;
     height: 20px;
-    right:  0;
-    margin-right: -16px;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* Color/shape of burger icon bars */
@@ -44,7 +39,7 @@
 
 /* General sidebar styles */
 .bm-menu {
-    background: #f5cd10;
+    background: #F5CD10;
     padding: 2.5em 1.5em 0;
     font-size: 1.8em;
 }
@@ -58,6 +53,7 @@
 .bm-item-list {
     color: #b8b7ad;
     padding: 0.4em;
+    text-align: center;
 }
 
 /* Individual item */

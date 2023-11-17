@@ -1,10 +1,49 @@
-.container-mobile,
-.container-desktop {
-  position: relative;
+/* barra de navegacion icono de redes sociales */
+.top-bar {
+  width: 100%;
+  background-color: #161616;
   display: flex;
-  justify-content: space-between;
+  padding: 10px 35px 10px 0;
+  text-align: end;
+  justify-content: flex-end;
   align-items: center;
+  gap: 15px;
+  color: #fff; 
+}
+.bxl-facebook,
+.bxl-tiktok,
+.bx-envelope{
+  background-color: #756f6f86;
+  border-radius: 50%;
+  font-size: 1rem;
+  padding: 4px;
+}
+
+.box-icon-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.container-mobile{
+  /* border:1px solid green; */
+  padding: 15px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
   width: 90%;
+  margin: 0 auto;
+}
+
+.container-desktop {
+  /* border:1px solid green; */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .desktop-menu {
@@ -19,21 +58,18 @@
   font-family: 'Teko', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 0 10px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .container-logo {
-  width: 100px;
-  max-width: 150px;
-  margin-right: -8px;
+  width: 85px;
+  margin:  auto 0;
 }
 
 .logo {
   width: 100%;
   height: 100%;
-  margin: 0 auto;
 }
 
 .link{
@@ -43,11 +79,6 @@
 
 .link:visited{
   color: black;
-}
-
-.link:hover {
-  text-shadow: 2px 2px 4px rgba(68, 65, 65, 0.205); 
-  color: #000;
 }
 
 /* ----------------- */
@@ -67,30 +98,18 @@
   height: 2px; 
   background-color: #F5CD10;
   transform: scaleX(0);
-  transform-origin: center; 
+  transform-origin: left; 
   transition: transform 0.4s ease; /
 }
-.active-link::after {
+.active-link::after,
+.link:hover::after{
   transform: scaleX(1);
 }
-
-.link:hover::after {
-  transform: scaleX(
-      1
-  ); 
-}
-
-
-
-
-
-
-
 
 
 
 @media(min-width:750px){
   .container-logo{
-    width: 117px;
+    width: 140px;
   }
 }
