@@ -7,68 +7,60 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
     position: relative;
 }
 
-.box-triangle {
+.box-image {
     /* border: solid 2px rgb(0, 255, 115); */
-    height: 84vh;
+    /* height: 84vh; */
+    /* height: 80%; */
     width: 100%;
+    /* position: absolute; */
+    /* overflow: hidden; */
+}
+.img-motorcicle {
+    width: 100%;
+    /* height: 50vh; */
+    /* filter: brightness(0.7); 
+    animation: growImage 4s infinite alternate;  */
 }
 
 .container-text {
-    width: 88%;
-    /* border: 2px solid rgb(226, 43, 83); */
+    /* height: 80vh; */
+    border: 2px solid rgb(226, 43, 83);
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0;
+    position: relative;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    /* top: 550px; */
     padding-left: 3%;
+    /* background-color: white; */
 }
 
 .text-about {
-    /* background-color: rgb(146, 185, 185); */
-    width: 71%;
+    width: 85%;
 }
 
 
 
-.box-moto-about {
-    /* border: solid 2px rgb(17, 0, 255); */
-    position: absolute;
-    width: 80%;
-    max-width: 500px;
-    height: 50%;
-    bottom: 0;
-}
-
-
-
-.img-moto-about,
-.img-triangle {
-    width: 100%;
-    height: 100%;
-}
-
-.img-moto-about{
-    width: 70%;
-    margin-left: 5px;
+.title-values{
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
 }
 
 @media (min-width: 700px) {
-    .box-triangle {
-        height: 79vh;
-        width: 100%;
-    }
 
     .text-about {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 26px;
     }
 
 
-    .box-moto-about{
+    /* .box-moto-about{
         height: 60%;
         width: 68%;
-    }
+    } */
 }

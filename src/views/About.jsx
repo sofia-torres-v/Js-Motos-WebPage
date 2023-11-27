@@ -1,6 +1,8 @@
 import "./About.css";
 import Nav from "../components/Nav";
-import { imagesDesktop } from "../firebaseConfig/imagesUrls";
+// import { imagesDesktop } from "../firebaseConfig/imagesUrls";
+import motoImage from "../assets/motorcicle.jpg"
+import ValuesGroup from "../components/ValuesGroup";
 
 const About = () => {
     return (
@@ -10,11 +12,11 @@ const About = () => {
             </header>
             <main>
                 <section className="container-main-about">
-                    <div className="box-triangle">
+                    <div className="box-image">
                         <img
-                            className="img-triangle"
-                            src={imagesDesktop.triangle}
-                            alt="image triangle"
+                            className="img-motorcicle"
+                            src={motoImage}
+                            alt="image motorcicle"
                         />
                     </div>
                     <div className="container-text">
@@ -25,20 +27,18 @@ const About = () => {
                             y venta de empaquetaduras para motos.Tenemos
                             nuestros inicios en el año 2017, nace como un un
                             pequeño emprendimiento, el cual con mucho esfuerzo y
-                            dedidación, se ha convertido en JS MOTOS import.
+                            dedidación, se ha convertido en JS MOTOS import, el cual es nuestra pasión.
+                            Atender a nuestros clientes con excelente servicio y productos fabricados con materiales
+                            de alta calidad es nuestra misión.
+                
                         </p>
 
                         </div>
                     
                     </div>
-
-                    <div className="box-moto-about">
-                        <img
-                            className="img-moto-about"
-                            src={imagesDesktop.scooter}
-                            alt="image motobike"
-                        />
-
+                    <div className="icons-info values">
+                        <h1 className="title-values">NUESTROS VALORES</h1>
+                        <ValuesGroup/>
                     </div>
                 </section>
             </main>
