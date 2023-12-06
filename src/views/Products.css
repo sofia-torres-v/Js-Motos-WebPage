@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .container-products h1 {
@@ -32,9 +31,10 @@
   .container-products-by-type {
     /* background-color: red; */
     flex-direction: row;
-    width: 800px;
+    width: 1200px;
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px;
+    /* background-color: rebeccapurple; */
   }
 }

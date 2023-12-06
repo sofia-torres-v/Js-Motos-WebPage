@@ -1,26 +1,5 @@
-
-.header {
-    /* border-bottom: 1px solid #f5cf107e; */
-    box-shadow: 0 0rem 1rem rgba(1, 1, 1, 0.13);  
-    display: grid;
-    place-items: center; 
-}
-
-
-
-/* -------------------------------- Main------------------------/ */
-.icons-info{
-    background-color: #131212;
-}
-
-.main-text{
-    padding: 80px;
-    text-align: center;
-}
-/* ------------------------------------------------- */
-
 /* Icono de WhatsApp - Efecto de rotación parcial y respiración */
-/* .container-whatsapp-icon {
+.container-whatsapp-icon {
     z-index: 2;
     width: 60px;
     position: fixed;
@@ -38,9 +17,9 @@
     50% {
       transform: translate(-50%, -50%) rotate(90deg) scale(1.2);
     }
-} */
+}
 
-/* .icon-messeger{
+.icon-messeger{
     position: fixed;
     bottom:15%;
     right:32px;
@@ -57,4 +36,4 @@
     .icon-messeger{
         bottom:14%;
     }
-} */
+}
