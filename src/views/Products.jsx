@@ -3,6 +3,9 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer';
 import CardProducts from '../components/CardProducts';
 import productData from '../components/ProductsData';
+import SocialMediaIcons from "../components/SocialMediaIcons";
+
+
 const Products = () => {
   // Filtrar los productos por tipo: 'unit' o 'kit'
   const unitProducts = productData.filter((product) => product.type === 'unit');
@@ -27,6 +30,7 @@ const Products = () => {
             ))}
           </div>
         </div>
+        <SocialMediaIcons/>
       </main>
       <Footer />
     </div>

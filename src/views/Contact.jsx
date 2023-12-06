@@ -1,12 +1,11 @@
 import "./Contact.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-// import ContactList from "../components/ContactList";
-// import Elipse from "../assets/elipse.png";
-import { images } from "../firebaseConfig/imagesUrls";
 import { useRef } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
+import SocialMediaIcons from "../components/SocialMediaIcons";
+
 
 const Contact = () => {
     const refForm = useRef();
@@ -32,13 +31,6 @@ const Contact = () => {
                 })
                 .catch((error) => console.error(error));
         }
-    };
-
-    const OpenWhatsApp = () => {
-        console.log("Hola");
-        const phoneNumber = "+51988987001";
-        // window.location.href = `https://wa.me/${phoneNumber}`;
-        window.open(`https://wa.me/${phoneNumber}`, "_blank");
     };
 
     return (
@@ -94,13 +86,7 @@ const Contact = () => {
                             </button>
                         </form>
                     </div>
-
-                    <img
-                        className="container-whatsapp-icon"
-                        src={images.whatsApp}
-                        alt="whatsapp-icon"
-                        onClick={OpenWhatsApp}
-                    />
+                    <SocialMediaIcons/>
                 </section>
             </main>
             <Footer />

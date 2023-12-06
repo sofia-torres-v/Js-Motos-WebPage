@@ -1,8 +1,8 @@
 import "./About.css";
 import Nav from "../components/Nav";
-// import { imagesDesktop } from "../firebaseConfig/imagesUrls";
 import motoImage from "../assets/motorcicle.jpg"
 import ValuesGroup from "../components/ValuesGroup";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const About = () => {
     return (
@@ -43,6 +43,7 @@ const About = () => {
                         <h1 className="title-values">NUESTROS VALORES</h1>
                         <ValuesGroup />
                     </div>
+                    <SocialMediaIcons/>
                 </section>
             </main>
 
