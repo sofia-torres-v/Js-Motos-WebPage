@@ -1,19 +1,18 @@
 .conatiner-icons {
-    padding: 70px 0;
+    padding: 40px 0;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
 }
 
 .icons {
-    padding: 0 70px;
+    padding: 20px 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .bx-map,

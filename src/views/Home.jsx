@@ -17,14 +17,13 @@ const Home = () => {
                 <section className="container-main-home">
                     <Slider />
 
-                    <div className="main-text">
-                        <h1>INNOVAMOS</h1>
-                        <p className="">
+                    <div className="box-main-text">
+                        <h1 className="home-title">Innovamos</h1>
+                        <p className="home-text">
                             JSMOTOS IMPORT fabricamos empaquetaduras con láminas
                             de alto rendimiento asegurando la resistencia en el
                             sellado. Productos de materia prima 100% libre de
-                            asbestos y solventes Lorem, ipsum dolor sit amet
-                            consectetur adipisicing elit. Corporis, repudiandae.
+                            asbestos y solventes.
                         </p>
                     </div>
 
