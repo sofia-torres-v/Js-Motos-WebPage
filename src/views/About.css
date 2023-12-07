@@ -1,74 +1,79 @@
-.title-about{
-    margin: 25px 0 10px;
-  
-}
 .container-main-about {
     /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
     position: relative;
 }
 
-.box-triangle {
+.container-image-text{
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-image {
     /* border: solid 2px rgb(0, 255, 115); */
-    height: 84vh;
+    /* height: 84vh; */
+    height: 100%;
     width: 100%;
+    /* position: absolute; */
+    /* overflow: hidden; */
+}
+.img-motorcicle {
+    width: 100%;
+    opacity: 0.5;
+    /* position: relative; */
+    height: 100vh;
+    /* filter: brightness(0.7); 
+    animation: growImage 4s infinite alternate;  */
 }
 
 .container-text {
-    width: 88%;
+    /* height: 80vh; */
     /* border: 2px solid rgb(226, 43, 83); */
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     position: absolute;
-    top: 0;
-    padding-left: 3%;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* top: 550px; */
+    padding: 20px;
+    background-color: white;
+    /* color: #fff; */
+}
+
+.title-about{
+    margin: 25px 0 10px;
+    /* border-bottom`: 1px solid #F5CD10; */
+  
+}
+.title-line{
+    width: 150px;
+    border: 4px solid #F5CD10;
+    margin-bottom: 10px;
 }
 
 .text-about {
-    /* background-color: rgb(146, 185, 185); */
-    width: 71%;
+    width: 85%;
 }
 
-
-
-.box-moto-about {
-    /* border: solid 2px rgb(17, 0, 255); */
-    position: absolute;
-    width: 80%;
-    max-width: 500px;
-    height: 50%;
-    bottom: 0;
-}
-
-
-
-.img-moto-about,
-.img-triangle {
-    width: 100%;
-    height: 100%;
-}
-
-.img-moto-about{
-    width: 70%;
-    margin-left: 5px;
+.title-values{
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
 }
 
 @media (min-width: 700px) {
-    .box-triangle {
-        height: 79vh;
-        width: 100%;
-    }
 
     .text-about {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 26px;
     }
 
 
-    .box-moto-about{
+    /* .box-moto-about{
         height: 60%;
         width: 68%;
-    }
+    } */
 }

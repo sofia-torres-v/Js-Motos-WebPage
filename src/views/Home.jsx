@@ -1,17 +1,11 @@
 import "./Home.css";
 import Nav from "../components/Nav";
-import { images } from "../firebaseConfig/imagesUrls";
 import Slider from "../components/slider";
 import IconGroup from "../components/IconGroup";
 import Footer from "../components/Footer";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Home = () => {
-    const OpenWhatsApp = () => {
-        console.log("Hola");
-        const phoneNumber = "+51988987001";
-        // window.location.href = `https://wa.me/${phoneNumber}`;
-        window.open(`https://wa.me/${phoneNumber}`, "_blank");
-    };
 
     return (
         <div className="home-view" id="outer-container">
@@ -38,13 +32,8 @@ const Home = () => {
                         <IconGroup />
                     </div>
 
-                    <img
-                        className="container-whatsapp-icon"
-                        src={images.whatsApp}
-                        alt="whatsapp-icon"
-                        onClick={OpenWhatsApp}
-                    />
-                    <i className="bx bxl-messenger icon-messeger"></i>
+                    <SocialMediaIcons />
+
                 </section>
             </main>
             <Footer />
