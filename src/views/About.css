@@ -1,74 +1,100 @@
-.title-about{
-    margin: 25px 0 10px;
-  
-}
 .container-main-about {
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
 }
 
-.box-triangle {
-    /* border: solid 2px rgb(0, 255, 115); */
-    height: 84vh;
+/* -------------------------------------------- */
+.container-banner-about {
     width: 100%;
+    padding: 5px;
+    background-color: #f8f9fa;
 }
 
-.container-text {
-    width: 88%;
-    /* border: 2px solid rgb(226, 43, 83); */
+.title-about {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.title-line {
+    width: 100px;
+    border: 2px solid #f5cd10;
+}
+
+.image-banner-container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    padding-left: 3%;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 52% 95%, 0 70%);
 }
 
-.text-about {
-    /* background-color: rgb(146, 185, 185); */
-    width: 71%;
-}
-
-
-
-.box-moto-about {
-    /* border: solid 2px rgb(17, 0, 255); */
-    position: absolute;
-    width: 80%;
-    max-width: 500px;
-    height: 50%;
-    bottom: 0;
-}
-
-
-
-.img-moto-about,
-.img-triangle {
+.img-motorcicle {
     width: 100%;
     height: 100%;
 }
 
-.img-moto-about{
-    width: 70%;
-    margin-left: 5px;
+.text-banner-about {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 0 30px 40px;
 }
 
-@media (min-width: 700px) {
-    .box-triangle {
-        height: 79vh;
+.text-about {
+    font-size: 1.2rem;
+    font-family: "Oswald", sans-serif;
+    margin: 22px 0 0;
+}
+
+.title-values {
+    color: #fff;
+    padding: 25px 0 0;
+}
+@media (min-width: 1200px) {
+    .container-banner-about {
+        flex-direction: row;
+        height: 400px;
+    }
+
+    .container-banner-about {
+        position: relative;
         width: 100%;
+        padding: 5px;
+    }
+    .title-about {
+        margin-top: 50px;
+    }
+
+    .image-banner-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .text-banner-about {
+        box-shadow: 0 0rem 1rem rgba(1, 1, 1, 0.13);
+        position: absolute;
+        top: 10px;
+        width: 60%;
+        height: 98%;
+        clip-path: polygon(0% 0%, 75% 0%, 84% 49%, 75% 100%, 0% 100%);
     }
 
     .text-about {
-        font-size: 1.2rem;
-        line-height: 26px;
+        padding: 0px 140px 0 0;
     }
 
+    .image-banner-container {
+        clip-path: none;
+    }
 
-    .box-moto-about{
-        height: 60%;
-        width: 68%;
+    .img-motorcicle {
+        width: 60%;
+        height: 100%;
     }
 }

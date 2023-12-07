@@ -13,7 +13,7 @@ const IconGroup = () => {
             </div>
             <div className="icons">
                 <i className="bx bxs-truck"></i>
-                <p className="text-icon-home">Entrega a domicilio. Pedidos a todo <span className="span-icon-home">Lima y Provincias</span>.</p>
+                <p className="text-icon-home">Entrega a domicilio. Pedidos <span className="span-icon-home">Lima y Provincias</span>.</p>
             </div>
         </div>
     );

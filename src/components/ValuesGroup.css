@@ -1,5 +1,5 @@
-.conatiner-icons {
-    padding: 40px 0;
+.container-values {
+    padding: 0 0 20px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -7,33 +7,29 @@
     align-items: center;
 }
 
-.icons {
-    padding: 20px 60px;
+.values {
+    padding: 20px 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.bx-map,
-.bx-world,
-.bxs-truck {
+.bx-like,
+.bx-medal,
+.bx-check-shield {
     font-size: 3.5rem;
     color: #555;
 }
 
-.text-icon-home,
-.span-icon-home {
+.text-icon-home2,
+.span-icon-home2 {
     text-align: center;
     font-size: 1.2rem;
 }
 
-.span-icon-home {
-    color: #f5cd10;
-}
-
 @media (min-width: 750px) {
-    .conatiner-icons {
+    .container-values {
         flex-direction: row;
     }
 }

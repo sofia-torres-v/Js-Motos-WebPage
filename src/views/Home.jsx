@@ -1,17 +1,11 @@
 import "./Home.css";
 import Nav from "../components/Nav";
-import { images } from "../firebaseConfig/imagesUrls";
 import Slider from "../components/slider";
 import IconGroup from "../components/IconGroup";
 import Footer from "../components/Footer";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Home = () => {
-    const OpenWhatsApp = () => {
-        console.log("Hola");
-        const phoneNumber = "+51988987001";
-        // window.location.href = `https://wa.me/${phoneNumber}`;
-        window.open(`https://wa.me/${phoneNumber}`, "_blank");
-    };
 
     return (
         <div className="home-view" id="outer-container">
@@ -23,14 +17,13 @@ const Home = () => {
                 <section className="container-main-home">
                     <Slider />
 
-                    <div className="main-text">
-                        <h1>INNOVAMOS</h1>
-                        <p className="">
+                    <div className="box-main-text">
+                        <h1 className="home-title">Innovamos</h1>
+                        <p className="home-text">
                             JSMOTOS IMPORT fabricamos empaquetaduras con láminas
                             de alto rendimiento asegurando la resistencia en el
                             sellado. Productos de materia prima 100% libre de
-                            asbestos y solventes Lorem, ipsum dolor sit amet
-                            consectetur adipisicing elit. Corporis, repudiandae.
+                            asbestos y solventes.
                         </p>
                     </div>
 
@@ -38,13 +31,8 @@ const Home = () => {
                         <IconGroup />
                     </div>
 
-                    <img
-                        className="container-whatsapp-icon"
-                        src={images.whatsApp}
-                        alt="whatsapp-icon"
-                        onClick={OpenWhatsApp}
-                    />
-                    <i className="bx bxl-messenger icon-messeger"></i>
+                    <SocialMediaIcons />
+
                 </section>
             </main>
             <Footer />

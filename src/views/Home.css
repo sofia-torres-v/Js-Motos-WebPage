@@ -5,15 +5,24 @@
 }
 
 /* -------------------------------- Main------------------------/ */
+.box-main-text {
+    background-color: #f8f9fa;
+}
 .icons-info {
     background-color: #131212;
 }
 
-.main-text {
-    padding: 80px;
+.home-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home-text {
+    padding: 30px;
+    font-size: 1.2rem;
     text-align: center;
 }
-/* ------------------------------------------------- */
 
 /* Icono de WhatsApp - Efecto de rotación parcial y respiración */
 .container-whatsapp-icon {
