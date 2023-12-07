@@ -5,8 +5,10 @@ import IconGroup from "../components/IconGroup";
 import Footer from "../components/Footer";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
-const Home = () => {
+import filtros from "../assets/discos1.jpg";
+import accesorios from "../assets/accesorios.jpg";
 
+const Home = () => {
     return (
         <div className="home-view" id="outer-container">
             <header className="header" id="page-wrap">
@@ -19,12 +21,32 @@ const Home = () => {
 
                     <div className="box-main-text">
                         <h1 className="home-title">Innovamos</h1>
+                        <h2 className="home-title">
+                            Empaquetaduras, Repuestos y Accesorios
+                        </h2>
                         <p className="home-text">
-                            JSMOTOS IMPORT fabricamos empaquetaduras con láminas
-                            de alto rendimiento asegurando la resistencia en el
-                            sellado. Productos de materia prima 100% libre de
-                            asbestos y solventes.
+                            Bienvenidos a JSmotos Import, fabricamos las mejores
+                            Empaquetaduras, para motos modelo bajaj, tvs
+                            piaggio, entre otros. Proximamente encontaras
+                            repuestos y accesorios para todo tipo de motos .
                         </p>
+                    </div>
+
+                    <div className="container-images-products">
+                        <div className="box-img-filtros">
+                            <img
+                                className="img-filtros"
+                                src={filtros}
+                                alt="Google"
+                            />
+                        </div>
+                        <div className="box-img-filtros">
+                            <img
+                                className="img-filtros"
+                                src={accesorios}
+                                alt="Google"
+                            />
+                        </div>
                     </div>
 
                     <div className="icons-info">
@@ -32,7 +54,6 @@ const Home = () => {
                     </div>
 
                     <SocialMediaIcons />
-
                 </section>
             </main>
             <Footer />

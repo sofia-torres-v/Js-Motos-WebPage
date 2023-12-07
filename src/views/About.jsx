@@ -25,11 +25,15 @@ const About = () => {
                             <h1 className="title-about">Cónocenos</h1>
                             <div className="title-line"></div>
                             <p className="text-about">
-                                Somos una empresa Peruana dedicada a la
+                                Somos una empresa peruana dedicada a la
                                 fabricación y venta de empaquetaduras para
-                                motos. Fundada en el año 2017,
-                                nace como un un pequeño emprendimiento, el cual ha crecido
-                                con mucho esfuerzo y dedidación, Ahora, expandimos nuestro alcance más allá de las empaquetaduras para brindar variedad a nuestros clientes, ofreciendo repuestos y accesorios para motos y carros de la mejor calidad.
+                                motos. Iniciamos en el 2017 como un pequeño
+                                emprendimiento, el cual ha florecido con mucho
+                                esfuerzo y dedicación. En la actualidad,
+                                ampliamos nuestro horizonte más allá de las
+                                empaquetaduras, para ofrecer a nuestros clientes
+                                una variedad de repuestos y accesorios para
+                                motos y carros de la más alta calidad.
                             </p>
                         </div>
                     </div>

@@ -6,20 +6,51 @@
 
 /* -------------------------------- Main------------------------/ */
 .box-main-text {
+    padding: 0 200px 40px;
     background-color: #f8f9fa;
 }
 .icons-info {
     background-color: #131212;
 }
 
+/* ------------------------------------- */
+
+.container-images-products {
+    display: grid;
+    border: 1px solid green;
+    grid-template-columns: 1fr;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    /* margin-top: 20px; */
+    width: 50%;
+    margin: 30px auto;
+}
+.box-img-filtros {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.img-filtros {
+    width: 100%;
+    height: 100%;
+}
+/* ------------------------------------------- */
+
 .home-title {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
-    padding-top: 50px;
+    padding: 40px 0 0;
+    font-family: "Teko", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 400;
 }
 
 .home-text {
-    padding: 30px;
+    padding: 20px;
     font-size: 1.2rem;
     text-align: center;
 }
@@ -61,5 +92,9 @@
 @media (min-width: 750px) {
     .icon-messeger {
         bottom: 14%;
+    }
+
+    .container-images-products {
+        grid-template-columns: 1fr 1fr;
     }
 }
