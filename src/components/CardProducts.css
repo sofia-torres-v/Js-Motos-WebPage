@@ -1,89 +1,68 @@
 .container-card-product {
-    /* padding: 40px; */
-    width: 400px;
-    /* height: 100%; */
-    transform-style: preserve-3d;
-    transition: transform 0s, box-shadow 0.3s;
+  /* padding: 40px; */
+  width: 400px;
+  /* height: 100%; */
+  transform-style: preserve-3d;
+  transition: transform 0s, box-shadow 0.3s;
 }
 
 .container-card-product:hover,
 .container-card-product:active {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .container-card-product.flipped {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card-front,
 .card-back {
-<<<<<<< HEAD
-    /* background-color: red; */
-    /* border: 2px solid rgb(207, 195, 195); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border-radius: 14px; */
-    margin: 5px;
-=======
-  /* background-color: red; */
+  margin: 5px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
-  border-radius: 14px;
-  /* margin: 20px; */
-  
->>>>>>> 4a2beebcc7b7b0b6fcd2dacdc5196e2bc42f1ff3
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 14px; */
 }
 
 .card-back {
-    /* background-color: black; */
-    display: none;
-    font-size: 14px;
-    /* padding: 10px; */
-    width: 320px;
-    height: 425px;
-    border: 2px solid white;
+  /* background-color: black; */
+  display: none;
+  font-size: 14px;
+  /* padding: 10px; */
+  width: 100%;
+  height: 520px;
+  border: 2px solid white;
 }
 
 .card-back-content {
-    transform: rotateY(-180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* gap: 40px; */
-    /* background-color: red; */
-    /* height: 100%; */
-    /* margin: 5px; */
-    /* color: white; */
-    /* border-radius: 16px; */
+  transform: rotateY(-180deg);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* gap: 40px; */
+  /* background-color: red; */
+  /* height: 100%; */
+  /* margin: 5px; */
+  /* color: white; */
+  /* border-radius: 16px; */
 }
 
 .container-card-product.flipped .card-front {
-    display: none;
+  display: none;
 }
 
 .container-card-product.flipped .card-back {
-    display: block;
+  display: block;
 }
 
 .title-card-product {
-<<<<<<< HEAD
-    font-size: 16px;
-    text-align: center;
-    /* color: white */
-=======
   font-size: 16px;
-  /* text-align: center; */
   font-weight: bold;
-  /* color: white */
->>>>>>> 4a2beebcc7b7b0b6fcd2dacdc5196e2bc42f1ff3
 }
 
-.description-card-product{
+.description-card-product {
   /* font-family: "Oswald", sans-serif;
   background-color: red; */
   width: 285px;
@@ -92,6 +71,6 @@
 }
 
 .img-product {
-    width: 100%;
-    /* border-radius: 10px; */
+  width: 100%;
+  /* border-radius: 10px; */
 }
