@@ -19,8 +19,8 @@
   /* background-color: red; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   border-radius: 14px;
   /* margin: 20px; */
   
@@ -60,8 +60,17 @@
 
 .title-card-product {
   font-size: 16px;
-  text-align: center;
+  /* text-align: center; */
+  font-weight: bold;
   /* color: white */
+}
+
+.description-card-product{
+  /* font-family: "Oswald", sans-serif;
+  background-color: red; */
+  width: 285px;
+  height: auto;
+  padding: 20px;
 }
 
 .img-product {
