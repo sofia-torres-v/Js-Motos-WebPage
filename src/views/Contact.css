@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 100vh;
     /* gap: 20px; */
+    font-family: "Rubik", sans-serif;
 }
 
 .box-text-contact {
@@ -13,7 +14,6 @@
 .title-contact {
     margin-top: 25px;
     font-size: 1.2rem;
-    text-transform: uppercase;
 }
 
 .title-line-contact {
@@ -109,8 +109,7 @@ textarea {
 
     .title-contact {
         margin-top: 25px;
-        font-size: 1.7rem;
-        text-transform: uppercase;
+        font-size: 2.2rem;
     }
 
     .subtitle-contact {

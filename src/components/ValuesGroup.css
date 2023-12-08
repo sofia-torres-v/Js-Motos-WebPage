@@ -22,12 +22,6 @@
     color: #fff;
 }
 
-.text-icon-home2,
-.span-icon-home2 {
-    text-align: center;
-    font-size: 1.2rem;
-}
-
 @media (min-width: 750px) {
     .container-values {
         flex-direction: row;
