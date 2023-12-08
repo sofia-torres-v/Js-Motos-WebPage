@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
-
 const Contact = () => {
     const refForm = useRef();
 
@@ -43,11 +42,16 @@ const Contact = () => {
                 <section className="container-main-contact">
                     <div className="box-text-contact">
                         <h1 className="title-contact">Contáctanos</h1>
-                        <p>
-                            Si está interesado en alguno de nuestros productos
-                            también puedes contactarnos por medio de este
-                            formulario. 
-                        </p>
+                        <div className="title-line-contact"></div>
+                        <div className="box-subtitle">
+                            <h4 className="subtitle-contact">
+                                ¿Interesado en nuestros productos?
+                            </h4>
+                            <h6>
+                                ¡Comunícate fácilmente a través de este
+                                formulario!
+                            </h6>
+                        </div>
                     </div>
 
                     <div className="box-form-contact">
@@ -86,7 +90,7 @@ const Contact = () => {
                             </button>
                         </form>
                     </div>
-                    <SocialMediaIcons/>
+                    <SocialMediaIcons />
                 </section>
             </main>
             <Footer />

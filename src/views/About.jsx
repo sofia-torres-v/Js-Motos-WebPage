@@ -1,6 +1,6 @@
 import "./About.css";
 import Nav from "../components/Nav";
-import motoImage from "../assets/motorcicle.jpg"
+import motoImage from "../assets/motorcicle.jpg";
 import ValuesGroup from "../components/ValuesGroup";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
@@ -12,38 +12,38 @@ const About = () => {
             </header>
             <main>
                 <section className="container-main-about">
-                    <div className="container-image-text">
-                        <div className="box-image">
+                    <div className="container-banner-about">
+                        <div className="image-banner-container">
                             <img
                                 className="img-motorcicle"
                                 src={motoImage}
                                 alt="image motorcicle"
                             />
                         </div>
-                        <div className="container-text">
-                            <h1 className="title-about">CONÓCENOS</h1>
+
+                        <div className="text-banner-about">
+                            <h1 className="title-about">Cónocenos</h1>
                             <div className="title-line"></div>
-                            <div className="text-about">
-                                <p >
-                                    Somos una empresa Peruana dedicada a la fabricación
-                                    y venta de empaquetaduras para motos.Tenemos
-                                    nuestros inicios en el año 2017, nace como un un
-                                    pequeño emprendimiento, el cual con mucho esfuerzo y
-                                    dedidación, se ha convertido en JS MOTOS import, el cual es nuestra pasión.
-                                    Atender a nuestros clientes con excelente servicio y productos fabricados con materiales
-                                    de alta calidad es nuestra misión.
-
-                                </p>
-
-                            </div>
-
+                            <p className="text-about">
+                                Somos una empresa Peruana dedicada a la
+                                fabricación y venta de empaquetaduras para
+                                motos. Iniciamos en el 2017 como un pequeño
+                                emprendimiento, el cual ha crecido con mucho
+                                esfuerzo y dedicación. En la actualidad,
+                                ampliamos nuestro horizonte más allá de las
+                                empaquetaduras, para ofrecer a nuestros clientes
+                                una variedad de repuestos y accesorios para
+                                motos y carros de la más alta calidad.
+                            </p>
                         </div>
                     </div>
+
                     <div className="icons-info values">
-                        <h1 className="title-values">NUESTROS VALORES</h1>
+                        <h1 className="title-values">Nuestros Valores</h1>
                         <ValuesGroup />
                     </div>
-                    <SocialMediaIcons/>
+
+                    <SocialMediaIcons />
                 </section>
             </main>
 

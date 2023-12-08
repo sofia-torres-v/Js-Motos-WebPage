@@ -3,7 +3,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 
-const CardProducts = ({product}) => {
+const CardProducts = ({ product }) => {
 
   const [isFlipped, setIsFlipped] = useState(false);
   const handleCardClick = () => {
@@ -24,10 +24,10 @@ const CardProducts = ({product}) => {
       <div className='card-back'>
         <div className='card-back-content'>
           <span className='title-card-product'>{product.name}</span>
-          {/* <div className='container-date-description-product'> */}
-          <p className='description-card-product'>{product.description}</p>
-          <span className='brand-card-product'>{product.brand}</span>
+          {/* <div className='container-description-product'> */}
+            <p className='description-card-product'>{product.description}</p>
           {/* </div> */}
+          <span className='brand-card-product'>{product.brand}</span>
         </div>
       </div>
 

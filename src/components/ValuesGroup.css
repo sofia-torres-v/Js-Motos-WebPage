@@ -1,28 +1,25 @@
-.container-values{
-    /* background-color: red; */
-    padding: 70px 0;
+.container-values {
+    padding: 0 0 20px;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
 }
 
-.values{
-    padding: 0 70px;
+.values {
+    padding: 20px 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    /* background-color: green; */
+    gap: 20px;
 }
 
 .bx-like,
 .bx-medal,
-.bx-check-shield{
+.bx-check-shield {
     font-size: 3.5rem;
-    color: #555;
+    color: #fff;
 }
 
 @media (min-width: 750px) {
