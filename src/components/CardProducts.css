@@ -17,6 +17,7 @@
 
 .card-front,
 .card-back {
+<<<<<<< HEAD
     /* background-color: red; */
     /* border: 2px solid rgb(207, 195, 195); */
     display: flex;
@@ -25,6 +26,16 @@
     align-items: center;
     /* border-radius: 14px; */
     margin: 5px;
+=======
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 14px;
+  /* margin: 20px; */
+  
+>>>>>>> 4a2beebcc7b7b0b6fcd2dacdc5196e2bc42f1ff3
 }
 
 .card-back {
@@ -60,9 +71,24 @@
 }
 
 .title-card-product {
+<<<<<<< HEAD
     font-size: 16px;
     text-align: center;
     /* color: white */
+=======
+  font-size: 16px;
+  /* text-align: center; */
+  font-weight: bold;
+  /* color: white */
+>>>>>>> 4a2beebcc7b7b0b6fcd2dacdc5196e2bc42f1ff3
+}
+
+.description-card-product{
+  /* font-family: "Oswald", sans-serif;
+  background-color: red; */
+  width: 285px;
+  height: auto;
+  padding: 20px;
 }
 
 .img-product {
