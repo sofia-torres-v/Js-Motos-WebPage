@@ -12,12 +12,12 @@
 }
 
 .title-about {
-    font-size: 1.8rem;
-    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 5px;
 }
 
 .title-line {
-    width: 100px;
+    width: 62px;
     border: 2px solid #f5cd10;
 }
 
@@ -39,17 +39,19 @@
     width: 100%;
     background-color: #f8f9fa;
     padding: 0 30px 40px;
+    font-family: "Rubik", sans-serif;
 }
 
 .text-about {
     font-size: 1.2rem;
-    font-family: "Oswald", sans-serif;
     margin: 22px 0 0;
 }
 
 .title-values {
     color: #fff;
-    padding: 25px 0 0;
+    padding: 30px 0 20px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
 }
 @media (min-width: 1200px) {
     .container-banner-about {
@@ -63,6 +65,7 @@
         padding: 5px;
     }
     .title-about {
+        font-size: 2rem;
         margin-top: 50px;
     }
 

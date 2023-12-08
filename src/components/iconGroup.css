@@ -8,7 +8,7 @@
 }
 
 .icons {
-    padding: 20px 60px;
+    padding: 20px 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,13 +19,14 @@
 .bx-world,
 .bxs-truck {
     font-size: 3.5rem;
-    color: #555;
+    color: #fff;
 }
 
 .text-icon-home,
 .span-icon-home {
     text-align: center;
     font-size: 1.2rem;
+    font-family: "Rubik", sans-serif;
 }
 
 .span-icon-home {
