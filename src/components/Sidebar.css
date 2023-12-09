@@ -19,28 +19,27 @@
 .bm-cross-button {
     height: 50px;
     width: 50px;
+    background-color: #443f3f;
+    border-radius: 50px;
+    padding: 13px;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
     background: black;
+    filter: invert(1);
 }
 
-/*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-  */
 .bm-menu-wrap {
     position: fixed;
-    height: 100%;
+    min-height: 100%;
     top: 0;
     left: 0;
 }
 
 /* General sidebar styles */
 .bm-menu {
-    /* background: #f5cd10; */
-    background: #fff;
+    background: #f2f2f2;
     padding: 8rem 1.5em 0;
     font-size: 1.8em;
 }
@@ -52,9 +51,8 @@
 
 /* Wrapper for item list */
 .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.4em;
-    /* text-align: center; */
+    padding: 0 2rem;
+    text-align: center;
 }
 
 /* Individual item */

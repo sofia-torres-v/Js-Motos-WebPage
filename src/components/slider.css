@@ -4,7 +4,7 @@
 }
 
 .carousel-image {
-    filter: brightness(0.7);
+    filter: brightness(0.5);
     width: 135%;
     height: 45vh;
     animation: growImage 7s infinite alternate;
@@ -16,10 +16,8 @@
     top: 10%;
     left: 8%;
     padding-left: 15px;
-    font-family: "M PLUS Rounded 1c", sans-serif;
     font-family: "Teko", sans-serif;
     letter-spacing: 2px;
-    background-color: rgba(128, 128, 128, 0.205);
 }
 
 .banner-text {
@@ -32,7 +30,7 @@
 
 .banner-span {
     text-transform: uppercase;
-    color: #F5CD10;
+    color: #f5cd10;
     font-size: 1.5rem;
     font-weight: 600;
 }

@@ -47,32 +47,36 @@ const Nav = () => {
                 </figure>
 
                 {isMobile ? (
-                    <Menu width={"80%"} isOpen={false}>
+                    <Menu width={"100%"} isOpen={false}>
                         <Link
                             to="/"
-                            className={`link ${isLinkActive("/") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/") ? "active-link" : ""
+                            }`}
                         >
                             Inicio
                         </Link>
                         <Link
                             to="/about"
-                            className={`link ${isLinkActive("/about") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/about") ? "active-link" : ""
+                            }`}
                         >
                             Nosotros
                         </Link>
                         <Link
                             to="/products"
-                            className={`link ${isLinkActive("/products") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/products") ? "active-link" : ""
+                            }`}
                         >
                             Productos
                         </Link>
                         <Link
                             to="/contact"
-                            className={`link ${isLinkActive("/contact") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/contact") ? "active-link" : ""
+                            }`}
                         >
                             Contacto
                         </Link>
@@ -81,29 +85,33 @@ const Nav = () => {
                     <div className="desktop-menu">
                         <Link
                             to="/"
-                            className={`link ${isLinkActive("/") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/") ? "active-link" : ""
+                            }`}
                         >
                             Inicio
                         </Link>
                         <Link
                             to="/about"
-                            className={`link ${isLinkActive("/about") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/about") ? "active-link" : ""
+                            }`}
                         >
                             Nosotros
                         </Link>
                         <Link
                             to="/products"
-                            className={`link ${isLinkActive("/products") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/products") ? "active-link" : ""
+                            }`}
                         >
                             Productos
                         </Link>
                         <Link
                             to="/contact"
-                            className={`link ${isLinkActive("/contact") ? "active-link" : ""
-                                }`}
+                            className={`link ${
+                                isLinkActive("/contact") ? "active-link" : ""
+                            }`}
                         >
                             Contacto
                         </Link>

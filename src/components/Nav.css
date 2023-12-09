@@ -1,130 +1,134 @@
 /* barra de navegacion icono de redes sociales */
 .top-bar {
-  width: 100%;
-  background-color: #161616;
-  display: flex;
-  padding: 10px 35px 10px 0;
-  text-align: end;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 15px;
-  color: #fff; 
+    width: 100%;
+    background-color: #161616;
+    display: flex;
+    padding: 10px 35px 10px 0;
+    text-align: end;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
 }
 .bxl-facebook,
 .bxl-tiktok,
-.bx-envelope{
-  background-color: #756f6f86;
-  border-radius: 50%;
-  font-size: 1rem;
-  padding: 4px;
+.bx-envelope {
+    background-color: #756f6f86;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 4px;
 }
 
-.box-icon-message{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 7px;
+.box-icon-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
 }
 
-.container-mobile{
-  padding: 15px;
-  display: flex;
-  align-items: center; 
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
+.container-mobile {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .container-desktop {
-  /* border:1px solid green; */
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .desktop-menu {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .desktop-menu a {
-  font-size: 1.2rem;
-  font-family: 'Rubik', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .container-logo {
-  width: 85px;
-  margin:  auto 0;
+    width: 85px;
+    margin: auto 0;
 }
 
 .logo {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-.link{
-  padding: 20px 0;
-  text-decoration: none;
-  
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "Rubik", sans-serif;
-  transition: text-shadow 0.3s
+.link {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    transition: text-shadow 0.3s;
 }
 
-.link:visited{
-  color: black;
-  font-family: "Rubik", sans-serif;
+.link:visited {
+    color: black;
+    font-family: "Rubik", sans-serif;
 }
 
 /* ----------------- */
 .link {
-  text-decoration: none; 
-  position: relative;
-  transition: border-bottom 0.2s ease;
+    text-decoration: none;
+    position: relative;
+    transition: border-bottom 0.2s ease;
 }
 
-.link::after, 
+.link::after,
 .active-link::after {
-  content: ""; 
-  position: absolute;
-  left: 0;
-  bottom: -3px; 
-  width: 100%;
-  height: 3px; 
-  background-color: #F5CD10;
-  transform: scaleX(0);
-  transform-origin: left; 
-  transition: transform 0.4s ease; /
+    content: "";
+    position: absolute;
+    left: 42%;
+    bottom: -3px;
+    width: 15%;
+    height: 3px;
+    background-color: #f5cd10;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
 }
 .active-link::after,
-.link:hover::after{
-  transform: scaleX(1);
+.link:hover::after {
+    transform: scaleX(1);
 }
 
+@media (min-width: 750px) {
+    .link::after,
+    .active-link::after {
+        width: 100%;
+        left: 0;
+    }
+    .desktop-menu a {
+        font-size: 1rem;
+    }
+    .container-logo {
+        width: 140px;
+    }
 
-
-@media(min-width:750px){
-  .desktop-menu a {
-    font-size: 1rem;
-  }
-  .container-logo{
-    width: 140px;
-  }
+    .link {
+        margin-top: 0;
+    }
 }
 
-@media(min-width:1000px){
-  .desktop-menu a {
-    font-size: 1.2rem;
-  }
+@media (min-width: 1000px) {
+    .desktop-menu a {
+        font-size: 1.2rem;
+    }
 }

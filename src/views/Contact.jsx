@@ -44,13 +44,13 @@ const Contact = () => {
                         <h1 className="title-contact">Contáctanos</h1>
                         <div className="title-line-contact"></div>
                         <div className="box-subtitle">
-                            <h4 className="subtitle-contact">
+                            <h3 className="subtitle-contact">
                                 ¿Interesado en nuestros productos?
-                            </h4>
-                            <h6>
+                            </h3>
+                            <h5>
                                 ¡Comunícate fácilmente a través de este
                                 formulario!
-                            </h6>
+                            </h5>
                         </div>
                     </div>
 

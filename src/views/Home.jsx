@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 import filtros from "../assets/discos1.jpg";
-import accesorios from "../assets/accesorios.jpg";
+import accesorios from "../assets/coronaFlSinFondo.png";
 
 import { useState, useEffect } from "react";
 
@@ -41,50 +41,59 @@ const Home = () => {
             <main>
                 <section>
                     <Slider />
-
+                    <h2 className="home-title2">
+                        Empaquetaduras, Repuestos y Accesorios
+                    </h2>
                     <div className="home-text-box">
-                        <h1 className="home-title1">Innovamos</h1>
-                        <h2 className="home-title2">
-                            Empaquetaduras, Repuestos y Accesorios{" "}
-                        </h2>
                         <p className="home-text">
                             Bienvenidos a JSmotos Import, fabricamos
                             Empaquetaduras, para motos modelo Bajaj, Tvs,
-                            Piaggio y más. Próximamente encontrarás repuestos y
-                            accesorios para todo tipo de motos .
+                            Piaggio y más. Próximamente también encontrarás
+                            repuestos y accesorios.
                         </p>
                     </div>
-                    <div className="container-images-products">
-                        <div
-                            className="box-img"
-                            style={{ transform: `scale(${calculateScale()})` }}
-                        >
-                            <img
-                                className="img-home"
-                                src={filtros}
-                                alt="Empaquetaduras"
-                            />
-                            <h6 className="text-image">
-                                Empaquetaduras. Medidas exactas
-                            </h6>
-                        </div>
-                        <div
-                            className="box-img"
-                            style={{ transform: `scale(${calculateScale()})` }}
-                        >
-                            <img
-                                className="img-home-accesorios"
-                                src={accesorios}
-                                alt="Repuestos y Accesorios"
-                            />
-                            <h6 className="text-image-accesorios">
-                                Repuestos y Accesorios
-                            </h6>{" "}
+                    <div className="contant-products-home">
+                        <h2 className="subtitle-products-home">
+                            Nuestros Productos
+                        </h2>
+                        <div className="title-line-products"></div>
+                        <div className="container-images-products">
+                            <div
+                                className="box-img"
+                                style={{
+                                    transform: `scale(${calculateScale()})`,
+                                }}
+                            >
+                                <img
+                                    className="img-home"
+                                    src={filtros}
+                                    alt="Empaquetaduras"
+                                />
+                                <button className="btn-home">
+                                    Ver más Productos
+                                </button>
+                            </div>
+                            <div
+                                className="box-img"
+                                style={{
+                                    transform: `scale(${calculateScale()})`,
+                                }}
+                            >
+                                <img
+                                    className="img-home-accesorios"
+                                    src={accesorios}
+                                    alt="Repuestos y Accesorios"
+                                />
+                                <button className="btn-home">
+                                    Ver más Productos
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="icons-info">
                         <h1 className="title-Icon">Nuestras Ventajas</h1>
                         <IconGroup />
+                        10
                     </div>
                     <SocialMediaIcons />
                 </section>
