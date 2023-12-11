@@ -17,22 +17,24 @@ const Products = () => {
                 <Nav />
             </header>
             <main>
-                <div className="container-products">
-                    <h1 className="title-products">
-                        Empaquetaduras por unidad
-                    </h1>
+                <section className="container-products">
+                    <h1 className="title-products">Empaquetaduras</h1>
+                    <h2 className="subtitle-products">Presentación Unidad</h2>
+
                     <div className="container-products-by-type">
                         {unitProducts.map((product) => (
                             <CardProducts key={product.id} product={product} />
                         ))}
                     </div>
-                    <h1>Empaquetaduras por kit</h1>
+                    <h2 className="subtitle-products">
+                        Presentación Kit Completo
+                    </h2>
                     <div className="container-products-by-type">
                         {kitProducts.map((product) => (
                             <CardProducts key={product.id} product={product} />
                         ))}
                     </div>
-                </div>
+                </section>
                 <SocialMediaIcons />
             </main>
             <Footer />

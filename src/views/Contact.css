@@ -1,7 +1,8 @@
 .container-main-contact {
     display: flex;
     flex-direction: column;
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif; */
+    font-family: "Rajdhani", sans-serif;
 }
 
 .box-text-contact {

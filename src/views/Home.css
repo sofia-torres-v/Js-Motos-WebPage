@@ -19,6 +19,8 @@
     /* padding: 5px 28px 0; */
     margin: 50px 30px 20px;
     font-family: "Rubik", sans-serif;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -53,6 +55,7 @@
 
 .subtitle-products-home {
     font-family: "Rubik", sans-serif;
+    font-family: "Rajdhani", sans-serif;
     font-size: 1.8rem;
     padding-top: 15px;
 }
@@ -119,6 +122,7 @@
     color: #fff;
     padding: 40px 0 0;
     font-family: "Rubik", sans-serif;
+    font-family: "Rajdhani", sans-serif;
     text-align: center;
 }
 /* Icono de WhatsApp - Efecto de rotación parcial y respiración */
