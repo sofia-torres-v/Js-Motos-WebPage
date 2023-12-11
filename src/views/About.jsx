@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import motoImage from "../assets/motorcicle.jpg";
 import ValuesGroup from "../components/ValuesGroup";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import Footer from "../components/Footer";
 
 const About = () => {
     return (
@@ -47,14 +48,7 @@ const About = () => {
                 </section>
             </main>
 
-            <footer className="footer">
-                <div className="black-rectangle-left"></div>
-                <p className="footer-text">
-                    Productos de materia prima 100% libre de asbestos y
-                    solventes
-                </p>
-                <div className="black-rectangle-right"></div>
-            </footer>
+            <Footer />
         </div>
     );
 };
