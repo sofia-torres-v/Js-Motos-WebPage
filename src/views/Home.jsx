@@ -91,9 +91,8 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="icons-info">
-                        <h1 className="title-Icon">Nuestras Ventajas</h1>
+                        <h1 className="title-Icon">¿Porqué elegirnos?</h1>
                         <IconGroup />
-                        10
                     </div>
                     <SocialMediaIcons />
                 </section>

@@ -1,4 +1,5 @@
 .container-products {
+    background-color: #faf9f9;
     width: 100%;
     display: flex;
     flex-direction: column;
