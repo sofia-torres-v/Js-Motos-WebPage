@@ -47,7 +47,7 @@ const About = () => {
                 </section>
             </main>
 
-            <footer className="footer-movil">
+            <footer className="footer">
                 <div className="black-rectangle-left"></div>
                 <p className="footer-text">
                     Productos de materia prima 100% libre de asbestos y

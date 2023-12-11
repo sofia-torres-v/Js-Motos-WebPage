@@ -1,16 +1,32 @@
 .footer {
-    background-color: #282727;
+    background-color: #0c0c0c;
     color: #fff;
-    height: 100px;
+    /* height: 100px; */
+}
+
+.box-icon-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.icon-footer {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.img-footer {
+    width: 180px;
 }
 
 .footer-end {
-    width: 90%;
-    margin: 0 auto;
+    /* width: 90%;
+    margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 50px 10px;
+    border-top: 1px solid #ffffff4d;
 }
 
 @media (min-width: 750px) {
