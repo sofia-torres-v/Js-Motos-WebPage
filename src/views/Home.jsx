@@ -10,6 +10,8 @@ import accesorios from "../assets/coronaFlSinFondo.png";
 
 import { useState, useEffect } from "react";
 
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
     const [scrollY, setScrollY] = useState(0);
 
@@ -31,6 +33,8 @@ const Home = () => {
 
         return Math.min(1 + scrollY * scaleFactor, maxScale);
     };
+
+    const navigate = useNavigate();
 
     return (
         <div className="home-view" id="outer-container">
@@ -69,7 +73,10 @@ const Home = () => {
                                     src={filtros}
                                     alt="Empaquetaduras"
                                 />
-                                <button className="btn-home">
+                                <button
+                                    className="btn-home"
+                                    onClick={() => navigate("/products")}
+                                >
                                     Ver más Productos
                                 </button>
                             </div>
@@ -84,7 +91,9 @@ const Home = () => {
                                     src={accesorios}
                                     alt="Repuestos y Accesorios"
                                 />
-                                <button className="btn-home">
+                                <button className="btn-home"
+                                onClick={() => navigate("/products")}
+                                >
                                     Ver más Productos
                                 </button>
                             </div>
