@@ -22,7 +22,7 @@ const About = () => {
                         </div>
 
                         <div className="text-banner-about">
-                            <h1 className="title-about">Cónocenos</h1>
+                            <h1 className="title-about">Conócenos</h1>
                             <div className="title-line"></div>
                             <p className="text-about">
                                 Somos una empresa Peruana dedicada a la

@@ -1,27 +1,82 @@
 .container-card-product {
-    border: 2px solid black;
+    box-shadow: 0 1px 6px rgba(25, 22, 22, 0.3);
     margin: 10px;
+    border-radius: 5px;
     width: 100%;
-    max-width: 380px;
+    max-width: 340px;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+    transform-style: preserve-3d;
+    position: relative;
+    cursor: pointer;
+}
+
+.container-card-product:hover,
+.container-card-product:active {
+    transform: translateY(-10px);
+}
+/* -------------------------------------- */
+
+.container-card-product.flipped {
+    transform: rotateY(180deg);
 }
 
 .card-front {
-    border: 1px solid purple;
-    margin: 5px;
+    border-radius: 15px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-img {
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: "Rajdhani", sans-serif;
+
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.text-img:hover {
+    opacity: 1;
+    color: #f5cd10;
 }
 
 .card-back {
-    border: 1px solid yellow;
-    margin: 5px;
-    padding: 5px;
+    display: none;
+    height: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
 }
+
+.container-card-product.flipped .card-front {
+    display: none;
+}
+
+.container-card-product.flipped .card-back {
+    display: block;
+}
+
 .img-product {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 .description-card-product {
-    /* Estilos para la descripción del producto */
-    white-space: pre-line; /* Para respetar los saltos de línea */
-    margin-bottom: 10px; /* Agrega espacio entre la descripción y el siguiente elemento */
+    white-space: pre-line;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
 }

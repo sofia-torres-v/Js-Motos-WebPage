@@ -8,7 +8,6 @@ const CardProducts = ({ product }) => {
         setIsFlipped(!isFlipped);
     };
 
-    //  Dividir la descripción en líneas usando "\n"
     const descriptionLines = product.description.split("\n");
 
     return (
@@ -22,6 +21,8 @@ const CardProducts = ({ product }) => {
                     src={product.image}
                     alt="product image"
                 />
+
+                <a className="text-img">Ver más detalles</a>
             </div>
 
             <div className="card-back">
@@ -29,8 +30,6 @@ const CardProducts = ({ product }) => {
                     <span className="title-card-product">{product.name}</span>
 
                     <p className="description-card-product">
-                        {/* Renderizar cada línea de la descripción en un nuevo
-                        párrafo */}
                         {descriptionLines.map((line, index) => (
                             <span key={index}>
                                 {line}
