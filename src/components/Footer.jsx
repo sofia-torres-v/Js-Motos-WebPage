@@ -2,6 +2,14 @@ import "./Footer.css";
 import jsFondoNegro from "../assets/jsFondoNegro.png";
 
 const Footer = () => {
+    const openFacebook = () => {
+        window.open(`https://www.facebook.com/jsmotosgasket?mibextid=9R9pXO`, "_blank");
+    }
+
+    const openTiktok = () => {
+        window.open(`https://www.facebook.com/jsmotosgasket?mibextid=9R9pXO`, "_blank");
+    }
+
     return (
         <footer className="footer">
             <div className="box-icon-footer">
@@ -13,9 +21,11 @@ const Footer = () => {
                     />
                 </div>
                 <div className="content-icons">
-                    <i className="bx bxl-facebook icon-footer"></i>
-                    <i className="bx bxl-tiktok icon-footer"></i>
-                    <i className="bx bxl-instagram-alt icon-footer"></i>
+                    <i className="bx bxl-facebook icon-footer" onClick={openFacebook}></i>
+                    <i className="bx bxl-tiktok icon-footer" onClick={openTiktok}></i>
+                    <a href='mailto:jsmotosdev@gmail.com' target='_blank' rel="noreferrer">
+                        <i className="bx bx-envelope icon-footer"></i>
+                    </a>
                 </div>
             </div>
             <div className="footer-end">

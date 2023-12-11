@@ -22,15 +22,27 @@ const Nav = () => {
             window.removeEventListener("resize", handleResize);
         };
     }, []);
+
+    const openFacebook = () => {
+        window.open(`https://www.facebook.com/jsmotosgasket?mibextid=9R9pXO`, "_blank"); 
+    }
+
+    const openTiktok = () => {
+        window.open(`https://www.facebook.com/jsmotosgasket?mibextid=9R9pXO`, "_blank"); 
+    }
+
     return (
         <>
             {/* Nueva sección para la franja superior */}
             {isMobile ? null : (
                 <div className="top-bar">
-                    <i className="bx bxl-facebook"></i>
-                    <i className="bx bxl-tiktok"></i>
+                    <i className="bx bxl-facebook" onClick={openFacebook}></i>
+                    <i className="bx bxl-tiktok" onClick={openTiktok}></i>
                     <div className="box-icon-message">
-                        <i className="bx bx-envelope"></i>
+                    <a href='mailto:jsmotosdev@gmail.com' target='_blank' rel="noreferrer">
+                    <i className="bx bx-envelope"></i>
+
+                    </a>
                         <span>jsmotosdev@gmail.com</span>
                     </div>
                 </div>
