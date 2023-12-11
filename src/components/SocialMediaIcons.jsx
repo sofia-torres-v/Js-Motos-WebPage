@@ -3,7 +3,7 @@ import "./SocialMediaIcons.css"
 
 const SocialMediaIcons = () => {
     const openWhatsApp = () => {
-        const phoneNumber = "+51988987001";
+        const phoneNumber = "+51910519759";
         window.open(`https://wa.me/${phoneNumber}`, "_blank");
     };
     const openFacebook = () => {
