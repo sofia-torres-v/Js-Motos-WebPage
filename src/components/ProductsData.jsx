@@ -1,10 +1,10 @@
 const productData = [
     {
         id: 1,
-        name: "Motor 4T-205",
+        name: "Central 4T-205",
         image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fmotor-4t205sf.jpg?alt=media&token=fc6eca1d-ece4-4b5c-a987-22a817e060b3",
         description:
-            "Empaque de Central Alternativo.\nCompatible con modelo 4T-175.\nMaterial: No asbesto con espesor de 0.8 mm, color gris.",
+            "Empaque de Central Alternativo.\nCompatible con modelo 4T-175\nMaterial: No asbesto con espesor de 0.8 mm, color gris.",
         brand: "Bajaj",
         type: "unit",
     },
@@ -14,7 +14,7 @@ const productData = [
         name: "Corona 4T-205",
         image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fcorona-4t205sf.jpg?alt=media&token=85933ab4-08fe-4764-b851-b817acda42dc",
         description:
-            "Empaque de Corona Alternativo.\nCompatible con modelo 4T-175.\nMaterial: No asbesto con cfsmmespesor de 0.8 mm, color gris.",
+            "Empaque de Corona Alternativo.\nCompatible con modelo 4T-175\nMaterial: No asbesto con espesor de 0.8 mm, color gris.",
         brand: "Bajaj",
         type: "unit",
     },

@@ -2,10 +2,13 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-        <footer className="footer-movil">
-            <p className="footer-text">
-                Copyright© 2022 JSMOTOS IMPORT | All Right Reserved.
-            </p>
+        <footer className="footer">
+            <div className="footer-end">
+                <p className="footer-text">
+                    © 2023 JSMOTOS IMPORT | Todos los derechos Reservados.
+                </p>
+                <p>Desarrollado por Andre Navas | Pauli Vega | Sofia Torres </p>
+            </div>
         </footer>
     );
 };

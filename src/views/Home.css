@@ -16,7 +16,6 @@
     margin: 80px 0 10px;
 }
 .home-title2 {
-    /* padding: 5px 28px 0; */
     margin: 50px 30px 20px;
     font-family: "Rubik", sans-serif;
     font-family: "Rajdhani", sans-serif;
@@ -37,8 +36,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #f2f2f2;
-    padding: 30px 0 50px;
+    padding: 5px 0 50px;
 }
 
 .container-images-products {
@@ -46,7 +44,6 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: #f2f2f2;
     width: 100%;
     margin: 0 auto;
     padding: 100px 100px 80px;
@@ -54,10 +51,10 @@
 }
 
 .subtitle-products-home {
-    font-family: "Rubik", sans-serif;
     font-family: "Rajdhani", sans-serif;
     font-size: 1.8rem;
-    padding-top: 15px;
+    color: #fff;
+    color: #000;
 }
 .title-line-products {
     text-align: center;
@@ -74,14 +71,11 @@
 
 .img-home {
     width: 100%;
-    /* height: 100%; */
-    background-color: #fff;
     border-radius: 14px;
 }
 .img-home-accesorios {
     width: 100%;
     height: auto;
-    background-color: #fff;
     border-radius: 14px;
 }
 
@@ -102,28 +96,30 @@
 /* ----------------------------------------------------------------------------- */
 
 .btn-home {
-    background-color: white;
+    background-color: #000;
+    background-color: #fff;
+    color: #fff;
     color: #000;
-    font-size: 0.7rem;
-    border: 1px solid #f5cd10;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #3f130f;
     padding: 5px 20px;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    font-weight: bold;
 }
 /* ---------------------------------------------------------------------------- */
 
 .icons-info {
-    background-color: #131212;
+    background-color: #f6f3f3;
 }
 
 .title-Icon {
-    color: #fff;
+    color: #000;
     padding: 40px 0 0;
-    font-family: "Rubik", sans-serif;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
+    font-size: 2.3rem;
 }
 /* Icono de WhatsApp - Efecto de rotación parcial y respiración */
 .container-whatsapp-icon {

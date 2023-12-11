@@ -1,6 +1,6 @@
 .conatiner-icons {
-    padding: 40px 0;
-    color: #fff;
+    padding: 30px 0;
+    color: #faf9f9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,9 +19,15 @@
 .bx-world,
 .bxs-truck {
     font-size: 3.5rem;
-    color: #fff;
+    color: #000;
+    border-radius: 50%;
+    padding: 18px;
+    border: 3px solid #f5cd10;
 }
 
+.text-icon-home {
+    color: #000;
+}
 .text-icon-home,
 .span-icon-home {
     text-align: center;
@@ -31,6 +37,7 @@
 
 .span-icon-home {
     color: #f5cd10;
+    font-weight: 700;
 }
 
 @media (min-width: 750px) {
