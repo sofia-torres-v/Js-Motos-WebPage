@@ -38,15 +38,6 @@ const productData = [
     },
     {
         id: 5,
-        name: "Motor 4T-205",
-        image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fmotor-4t205sf.jpg?alt=media&token=fc6eca1d-ece4-4b5c-a987-22a817e060b3",
-        description:
-            "Empaque de Central Alternativo.\nCompatible con modelo 4T-175.\nMaterial: No asbesto con espesor de 0.8 mm, color gris.",
-        brand: "Bajaj",
-        type: "unit",
-    },
-    {
-        id: 6,
         name: "Kit 2T-5L",
         image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit-2t5l-sf.jpg?alt=media&token=511b540c-036b-4a4f-a63e-28243dc614e6",
         description: `Kit de Empaquetadura completo Alternativo.\nIncluye:\n- Motor\n- Corona \n- Culata\n- Selector\n- 2 Lengüetas\n- Cilindro\n- Tubo de escape.\nMaterial: No asbesto con un espesor de 0.4 mm.`,
@@ -54,7 +45,7 @@ const productData = [
         type: "kit",
     },
     {
-        id: 7,
+        id: 6,
         name: "Kit 2T-FL",
         image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit-2tfl-sf.jpg?alt=media&token=51ebaa41-9399-425f-a8f8-bd26bbe8bc91",
         description: `Kit de Empaquetadura completo Alternativo Moderno.\nIncluye:\n- Motor\n- Corona\n- Culata\n- 2 Lengüetas\n- Cilindro\n- Tubo de escape Grafitado.\nMaterial: No asbesto con un espesor de 0.4 mm.`,
@@ -62,7 +53,7 @@ const productData = [
         type: "kit",
     },
     {
-        id: 5,
+        id: 7,
         name: "Kit 4T-205",
         image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit205-sf.jpg?alt=media&token=eda11b8d-04d7-48fd-92b0-6b2b73cab554",
         description:
@@ -86,6 +77,14 @@ const productData = [
         description:
             "Kit de Empaquetadura completo Alternativo.\nIncluye:\n- Disco de Embrague\n- Motor\n- Corona\n- Culata\n- Templador\n- Cilindro\nMaterial: No asbesto con un espesor de 0.4 mm.",
         brand: "Tvs",
+        type: "kit",
+    },
+    {
+        id: 10,
+        name: "Kit 2T-FL",
+        image: "https://firebasestorage.googleapis.com/v0/b/jsmotos-e4995.appspot.com/o/products%2Fkit-2tfl-sf.jpg?alt=media&token=51ebaa41-9399-425f-a8f8-bd26bbe8bc91",
+        description: `Kit de Empaquetadura completo Alternativo Moderno.\nIncluye:\n- Motor\n- Corona\n- Culata\n- 2 Lengüetas\n- Cilindro\n- Tubo de escape Grafitado.\nMaterial: No asbesto con un espesor de 0.4 mm.`,
+        brand: "Bajaj",
         type: "kit",
     },
 ];

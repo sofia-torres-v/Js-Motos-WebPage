@@ -85,7 +85,7 @@ const Contact = () => {
                             {errors.email && (
                                 <span>This field is required</span>
                             )}
-                            <button className="btn" type="submit">
+                            <button className="btn-contact" type="submit">
                                 Enviar
                             </button>
                         </form>

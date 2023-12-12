@@ -77,20 +77,20 @@ textarea {
     height: 100%;
 }
 
-.btn {
-    padding: 5px;
+.btn-contact {
+    padding: 6px;
     background-color: #2b2828;
     color: #fff;
     border-radius: 4px;
     font-family: "Oswald", sans-serif;
     font-size: 1rem;
+    border: none;
     margin-top: 5px;
     width: 50%;
     cursor: pointer;
 }
-.btn:hover {
+.btn-contact:hover {
     background-color: #333;
-    color: lightgray;
 }
 
 @media (min-width: 750px) {

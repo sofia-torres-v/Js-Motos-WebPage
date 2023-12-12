@@ -17,7 +17,6 @@
 }
 .home-title2 {
     margin: 50px 30px 20px;
-    font-family: "Rubik", sans-serif;
     font-family: "Rajdhani", sans-serif;
     font-weight: 600;
     font-size: 1.6rem;
@@ -30,13 +29,13 @@
     text-align: center;
     font-family: "Rubik", sans-serif;
 }
-/* ------------------------------------- */
 
 .contant-products-home {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5px 0 50px;
+    padding: 25px 0 50px;
+    background-color: #f6f3f3;
 }
 
 .container-images-products {
@@ -53,7 +52,6 @@
 .subtitle-products-home {
     font-family: "Rajdhani", sans-serif;
     font-size: 1.8rem;
-    color: #fff;
     color: #000;
 }
 .title-line-products {
@@ -71,12 +69,17 @@
 
 .img-home {
     width: 100%;
-    border-radius: 14px;
+    border-radius: 7px;
+    padding: 10px 10px 25px;
+    border: 1px solid rgb(128, 126, 126);
+    position: relative;
 }
 .img-home-accesorios {
     width: 100%;
+    padding: 10px 10px 25px;
     height: auto;
-    border-radius: 14px;
+    border-radius: 7px;
+    border: 1px solid rgb(128, 126, 126);
 }
 
 .text-image {
@@ -87,31 +90,34 @@
 .text-image-accesorios {
     text-align: end;
     padding: 10px 20px;
-    font-size: 1.5rem;
     font-family: "Teko", sans-serif;
 }
 .box-img:hover {
     transform: scale(1.1);
 }
-/* ----------------------------------------------------------------------------- */
 
 .btn-home {
-    background-color: #000;
-    background-color: #fff;
+    position: absolute;
+    background-color: #000000ee;
     color: #fff;
-    color: #000;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: none;
-    border-bottom: 1px solid #3f130f;
-    padding: 5px 20px;
+    padding: 4px 12px;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 6px;
+    bottom: -5%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    transition: 0.9s;
 }
-/* ---------------------------------------------------------------------------- */
 
-.icons-info {
-    background-color: #f6f3f3;
+.btn-home:hover {
+    box-shadow: inset 0 0 0 2em #f6f3f3;
+    color: #000;
+
+    cursor: pointer;
 }
 
 .title-Icon {
@@ -161,8 +167,7 @@
     }
 
     .img-home-accesorios {
-        height: 225px;
-        max-height: 225px;
+        height: 245px;
     }
 
     .home-title2 {
