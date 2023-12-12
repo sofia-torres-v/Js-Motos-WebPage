@@ -39,7 +39,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="icons-info values">
+                    <div className="icons-info-values">
                         <h1 className="title-values">Nuestros Valores</h1>
                         <ValuesGroup />
                     </div>

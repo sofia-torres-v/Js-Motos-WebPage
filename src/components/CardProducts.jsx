@@ -22,7 +22,7 @@ const CardProducts = ({ product }) => {
                     alt="product image"
                 />
 
-                <a className="text-img">Ver más detalles</a>
+                <button className="text-img btn fill">Ver más detalles</button>
             </div>
 
             <div className="card-back">
