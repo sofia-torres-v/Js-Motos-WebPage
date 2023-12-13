@@ -84,7 +84,7 @@ const Footer = () => {
                     © 2023 JSMOTOS IMPORT | Todos los derechos Reservados.
                 </p>
                 <div className="credits">
-                    <p className="text-credits">Creada y Desarrollada por:</p>
+                    <p className="text-credits">Diseñada y Desarrollada por:</p>
                     <div className="links-footer">
                         <div className="box-links-git">
                             <i className="bx bxl-github">

@@ -3,26 +3,27 @@
     z-index: 2;
     width: 60px;
     position: fixed;
-    bottom: 18%;
+    bottom: 21%;
     right: 0%;
     transform: translate(-50%, -50%) rotate(0deg) scale(1);
     animation: breatheAndRotate 5s ease-in-out infinite;
     cursor: pointer;
 }
-  
+
 @keyframes breatheAndRotate {
-    0%, 100% {
-      transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    0%,
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
     }
     50% {
-      transform: translate(-50%, -50%) rotate(90deg) scale(1.2);
+        transform: translate(-50%, -50%) rotate(90deg) scale(1.2);
     }
 }
 
-.icon-messeger{
+.icon-messeger {
     position: fixed;
-    bottom:15%;
-    right:32px;
+    bottom: 15%;
+    right: 32px;
     background-color: #242323d8;
     border-radius: 50%;
     padding: 5px;
@@ -30,10 +31,9 @@
     font-size: 2.7rem;
     cursor: pointer;
 }
-  
-  
+
 @media (min-width: 750px) {
-    .icon-messeger{
-        bottom:14%;
+    .icon-messeger {
+        bottom: 14%;
     }
 }

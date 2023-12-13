@@ -44,7 +44,6 @@
     cursor: pointer;
     white-space: nowrap;
     border: none;
-    /* transition: opacity 0.3s ease, color 0.3s ease; */
     line-height: 30px;
 }
 
@@ -80,7 +79,7 @@
 .card-back {
     display: none;
     height: 400px;
-    padding: 20px;
+    padding: 18px;
     border-radius: 7px;
     box-sizing: border-box;
     background-color: #f2f2f2;
