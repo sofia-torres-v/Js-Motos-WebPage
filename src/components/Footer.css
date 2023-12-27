@@ -55,42 +55,26 @@
 .span-footer {
     margin-left: 5px;
 }
+
+/* ---------------------------------- */
 .btn-footer {
     padding: 5px 15px;
     text-transform: uppercase;
     background-color: #000;
-    color: #fff;
+    color: white;
     margin-top: 10px;
-    border: 2px solid #fff;
-    transition: background-color 0.8s ease, color 083s ease;
-}
-
-.fill:hover,
-.fill:focus {
-    box-shadow: inset 0 0 0 2em var(--hover);
-}
-
-.fill {
-    --hover: #f5cd10;
-}
-
-.btn-footer {
-    color: var(--color);
-    -webkit-transition: 0.9s;
-    transition: 0.45s;
+    border: 1px solid #f5cd10;
+    transition: 1.5s;
     cursor: pointer;
 }
+
 .btn-footer:hover,
 .btn-footer:focus {
-    border-color: var(--hover);
     color: #000;
     font-weight: bold;
 }
 
-.btn-footer:active {
-    background-color: var(--hover);
-    color: #fff;
-}
+/* ------------------------------------ */
 .footer-end {
     display: flex;
     flex-direction: column;
@@ -106,7 +90,7 @@
 .credits {
     display: flex;
     flex-wrap: wrap;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .box-links-git {
@@ -114,16 +98,17 @@
 }
 .link-git {
     font-family: "Rubik", sans-serif;
+    margin-left: 2px;
 }
 .links-footer {
     display: flex;
-    gap: 8px;
+    gap: 12px;
 }
 
 @media (min-width: 750px) {
     .box-footer {
         flex-direction: row;
-        padding: 50px 10px;
+        padding: 50px auto;
     }
     .content2-footer {
         padding: 0 50px 0 0;

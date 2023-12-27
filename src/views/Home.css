@@ -7,7 +7,7 @@
 /* -------------------------------- Main------------------------/ */
 .home-text-box {
     width: 65%;
-    margin: 10px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -17,10 +17,9 @@
 }
 .home-title2 {
     margin: 50px 30px 20px;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 600;
     font-size: 1.6rem;
     text-align: center;
+    font-weight: 400;
 }
 
 .home-text {
@@ -34,7 +33,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 25px 0 50px;
+    padding: 40px 0 60px;
     background-color: #f6f3f3;
 }
 
@@ -50,7 +49,6 @@
 }
 
 .subtitle-products-home {
-    font-family: "Rajdhani", sans-serif;
     font-size: 1.8rem;
     color: #000;
 }
@@ -110,22 +108,21 @@
     left: 50%;
     white-space: nowrap;
     transform: translateX(-50%);
-    transition: 0.9s;
+    transition: 2s;
 }
 
 .btn-home:hover {
     box-shadow: inset 0 0 0 2em #f6f3f3;
     color: #000;
-
     cursor: pointer;
 }
 
 .title-Icon {
     color: #000;
-    padding: 40px 0 0;
-    font-family: "Rajdhani", sans-serif;
+    padding: 55px 0 0;
     text-align: center;
     font-size: 2.3rem;
+    font-weight: 400;
 }
 /* Icono de WhatsApp - Efecto de rotación parcial y respiración */
 .container-whatsapp-icon {
@@ -171,8 +168,11 @@
     }
 
     .home-title2 {
-        margin: 55px 0 15px;
+        margin: 65px 0 15px;
         font-size: 2.5rem;
+    }
+    .home-text-box {
+        margin: 30px auto 55px;
     }
 
     .home-text {

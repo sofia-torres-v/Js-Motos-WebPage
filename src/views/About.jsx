@@ -40,7 +40,7 @@ const About = () => {
                     </div>
 
                     <div className="icons-info-values">
-                        <h1 className="title-values">Nuestros Valores</h1>
+                        <h2 className="title-values">Nuestros Valores</h2>
                         <ValuesGroup />
                     </div>
 

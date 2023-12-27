@@ -90,6 +90,18 @@ const Footer = () => {
                             <i className="bx bxl-github">
                                 <a
                                     className="link-git"
+                                    href="https://github.com/sofia-torres-v"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Sofia Torres
+                                </a>
+                            </i>
+                        </div>
+                        <div className="box-links-git">
+                            <i className="bx bxl-github">
+                                <a
+                                    className="link-git"
                                     href="https://github.com/andrenavas"
                                     target="_blank"
                                     rel="noreferrer"
@@ -107,18 +119,6 @@ const Footer = () => {
                                     rel="noreferrer"
                                 >
                                     Pauli Vega{" "}
-                                </a>
-                            </i>
-                        </div>
-                        <div className="box-links-git">
-                            <i className="bx bxl-github">
-                                <a
-                                    className="link-git"
-                                    href="https://github.com/sofia-torres-v"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    Sofia Torres
                                 </a>
                             </i>
                         </div>

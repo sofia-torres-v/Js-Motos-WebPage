@@ -1,7 +1,7 @@
 import "./slider.css";
 import { Carousel } from "react-bootstrap";
 import { images } from "../firebaseConfig/imagesUrls";
-import filtros from "../assets/20210206_165847.jpg";
+import filtros from "../assets/filtrosBanner.jpg";
 
 const Slider = () => {
     return (
@@ -23,19 +23,9 @@ const Slider = () => {
                         moto!
                     </p>
                 </div>
-                {/* Indicador circular */}
-                <Carousel.Caption>
-                    <div className="carousel-indicator"></div>
-                </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item className="Carousel-Item">
-                {/* <img
-                    className="carousel-image"
-                    src={images.bannerHome}
-                    alt="First slide"
-                /> */}
-
                 <img
                     className="carousel-image"
                     src={filtros}
@@ -52,10 +42,6 @@ const Slider = () => {
                         moto!
                     </p>
                 </div>
-                {/* Indicador circular */}
-                <Carousel.Caption>
-                    <div className="carousel-indicator"></div>
-                </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item className="Carousel-Item">
@@ -75,11 +61,6 @@ const Slider = () => {
                         moto!
                     </p>
                 </div>
-
-                {/* Indicador circular */}
-                <Carousel.Caption>
-                    <div className="carousel-indicator"></div>
-                </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
     );
