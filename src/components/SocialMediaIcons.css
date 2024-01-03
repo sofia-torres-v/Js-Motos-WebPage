@@ -22,6 +22,7 @@
 
 .icon-messeger {
     position: fixed;
+    z-index: 2;
     bottom: 15%;
     right: 32px;
     background-color: #242323d8;

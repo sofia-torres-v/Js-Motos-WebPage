@@ -56,7 +56,7 @@ const Footer = () => {
                     <div>
                         <h2>¿Necesitas ayuda?</h2>
 
-                        <h6>Siempre buscamos mejorar, Cuéntanos tu opinión.</h6>
+                        <h6>Siempre buscamos mejorar. Cuéntanos tu opinión.</h6>
                         <button
                             className="btn-footer fill"
                             onClick={() => navigate("/Contact")}
@@ -90,23 +90,11 @@ const Footer = () => {
                             <i className="bx bxl-github">
                                 <a
                                     className="link-git"
-                                    href="https://github.com/sofia-torres-v"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    Sofia Torres
-                                </a>
-                            </i>
-                        </div>
-                        <div className="box-links-git">
-                            <i className="bx bxl-github">
-                                <a
-                                    className="link-git"
                                     href="https://github.com/andrenavas"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Andre Navas{" "}
+                                    Andre Navas
                                 </a>
                             </i>
                         </div>
@@ -118,7 +106,19 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Pauli Vega{" "}
+                                    Pauli Vega
+                                </a>
+                            </i>
+                        </div>
+                        <div className="box-links-git">
+                            <i className="bx bxl-github">
+                                <a
+                                    className="link-git"
+                                    href="https://github.com/sofia-torres-v"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Sofia Torres
                                 </a>
                             </i>
                         </div>
