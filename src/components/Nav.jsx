@@ -31,10 +31,7 @@ const Nav = () => {
     };
 
     const openTiktok = () => {
-        window.open(
-            `https://www.facebook.com/jsmotosgasket?mibextid=9R9pXO`,
-            "_blank"
-        );
+        window.open("https://www.tiktok.com/@jsmotos.com");
     };
 
     return (

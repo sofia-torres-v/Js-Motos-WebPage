@@ -11,10 +11,7 @@ const Footer = () => {
     };
 
     const openTiktok = () => {
-        window.open(
-            `https://www.facebook.com/jsmotosgasket?mibextid=9R9pXO`,
-            "_blank"
-        );
+        window.open("https://www.tiktok.com/@jsmotos.com");
     };
 
     const navigate = useNavigate();
@@ -102,11 +99,11 @@ const Footer = () => {
                             <i className="bx bxl-github">
                                 <a
                                     className="link-git"
-                                    href="https://github.com/paulivega"
+                                    href="https://github.com/sofia-torres-v"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Pauli Vega
+                                    Sofia Torres
                                 </a>
                             </i>
                         </div>
@@ -114,11 +111,11 @@ const Footer = () => {
                             <i className="bx bxl-github">
                                 <a
                                     className="link-git"
-                                    href="https://github.com/sofia-torres-v"
+                                    href="https://github.com/paulivega"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Sofia Torres
+                                    Pauli Vega
                                 </a>
                             </i>
                         </div>
