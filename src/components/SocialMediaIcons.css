@@ -3,7 +3,7 @@
     z-index: 2;
     width: 60px;
     position: fixed;
-    bottom: 21%;
+    bottom: 25%;
     right: 0%;
     transform: translate(-50%, -50%) rotate(0deg) scale(1);
     animation: breatheAndRotate 5s ease-in-out infinite;
