@@ -6,15 +6,14 @@ Bienvenido a JS Motos, un proyecto dedicado a la fabricación y venta de empaque
 
 - **Diseño Moderno y Atractivo:** Desarrollado con React y Bootstrap para una interfaz visualmente agradable.
 - **Conexión Directa a WhatsApp:** Facilita la comunicación directa con nuestros clientes.
-- **Formulario de Contacto:** Permite a los usuarios ponerse en contacto con el dueño a través de Gmail.
+- **Formulario de Contacto:** Permite a los usuarios ponerse en contacto con el Dueño a través de Gmail.
 - **Totalmente Responsivo:** Garantiza una experiencia de usuario óptima en todos los dispositivos.
 - **Gestión Integral del Hosting:** Nosotras, como parte de nuestro trabajo, también gestionamos todo sobre el hosting.
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla 1](./ruta/a/captura1.jpg)
-![Captura de Pantalla 2](./ruta/a/captura2.jpg)
-![Captura de Pantalla 3](./ruta/a/captura3.jpg)
+![Captura de Pantalla 1](./src/assets/banner1-readme.jpg)
+![Captura de Pantalla 3](./src/assets/baner-views.png)
 
 ## URL del Sitio Web
 
@@ -28,5 +27,5 @@ Este proyecto fue desarrollado en colaboración con un equipo comprometido. Agra
 - [Andre Navas](https://github.com/andrenavas) 
 - [Pauli Vega](https://github.com/paulivega)
 
-¡Gracias a todo el equipo por su arduo trabajo y dedicación!
+¡Gracias a todo el equipo por apoyo y dedicación!
 
