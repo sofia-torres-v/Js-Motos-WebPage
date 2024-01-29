@@ -24,9 +24,9 @@ Bienvenido a JS Motos, un proyecto dedicado a la fabricación y venta de empaque
 
 Este proyecto fue desarrollado en colaboración con un equipo comprometido. Agradecemos las contribuciones y el esfuerzo de cada miembro del equipo.
 
-- [Sofia Torres](https://github.com/TuNombre) - Desarrollador principal
-- [Andre Navas](https://github.com/NombreCompanera1) - Colaboradora
-- [Pauli Vega](https://github.com/NombreCompanera2) - Colaboradora
+- [Sofia Torres](https://github.com/sofia-torres-v) 
+- [Andre Navas](https://github.com/andrenavas) 
+- [Pauli Vega](https://github.com/paulivega)
 
 ¡Gracias a todo el equipo por su arduo trabajo y dedicación!
 
