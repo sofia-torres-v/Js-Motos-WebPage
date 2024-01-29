@@ -4,6 +4,7 @@ import { images } from "../firebaseConfig/imagesUrls";
 import filtros from "../assets/filtrosBanner.jpg";
 
 const Slider = () => {
+    // slider hecho con bootstrap
     return (
         <Carousel>
             <Carousel.Item className="Carousel-Item">
