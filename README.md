@@ -5,7 +5,7 @@ Bienvenido a JS Motos, un proyecto dedicado a la fabricación y venta de empaque
 ## Características Destacadas
 
 - **Diseño Moderno y Atractivo:** Desarrollado con React y Bootstrap para una interfaz visualmente agradable.
-- **Conexión Directa a WhatsApp:** Facilita la comunicación directa con nuestros clientes.
+- **Conexión Directa a WhatsApp:** Facilita la comunicación directa con el clientes.
 - **Formulario de Contacto:** Permite a los usuarios ponerse en contacto con el Dueño a través de Gmail.
 - **Totalmente Responsivo:** Garantiza una experiencia de usuario óptima en todos los dispositivos.
 - **Gestión Integral del Hosting:** Nosotras, como parte de nuestro trabajo, también gestionamos todo sobre el hosting.
