@@ -1,36 +1,15 @@
 import "./Contact.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import { useRef } from "react";
 import { useForm } from "react-hook-form";
-import emailjs from "@emailjs/browser";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Contact = () => {
-    const refForm = useRef();
 
     const {
         register,
-        handleSubmit,
         formState: { errors },
-        reset,
     } = useForm();
-
-    const onSubmit = () => {
-        if (refForm.current) {
-            const serviceId = "service_vkjz25v";
-            const templateId = "template_ady7jad";
-            const apiKey = "w7Qn_NEvz_YwJ8FDt";
-
-            emailjs
-                .sendForm(serviceId, templateId, refForm.current, apiKey)
-                .then((result) => {
-                    console.log(result.text);
-                    reset();
-                })
-                .catch((error) => console.error(error));
-        }
-    };
 
     return (
         <div className="contact-view" id="outer-container">
@@ -55,7 +34,7 @@ const Contact = () => {
                     </div>
 
                     <div className="box-form-contact">
-                        <form ref={refForm} onSubmit={handleSubmit(onSubmit)}>
+                        <form >
                             <div className="box-input-label">
                                 <label>Nombre</label>
                                 <input
