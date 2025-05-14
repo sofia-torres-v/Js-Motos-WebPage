@@ -43,7 +43,6 @@ const About = () => {
                         <h2 className="title-values">Nuestros Valores</h2>
                         <ValuesGroup />
                     </div>
-
                     <SocialMediaIcons />
                 </section>
             </main>
